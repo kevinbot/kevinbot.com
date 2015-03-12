@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
   </head>
-  <body ng-app="digitalpassportinfoApp">
+  <body ng-app="digitalpassportApp">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -46,17 +46,7 @@
           </nav>
           <!-- End Navbar -->
           <!-- Main -->
-          <div class="inner cover">
-            <h1 class="cover-heading">Your identity. Your digital passport</h1>
-            <p class="lead">Take back your identity and get your digital passport. </p>
-            <div class="container passport-wrap">
-              <img src="images/digipass-horizontal.png">
-            </div>
-            <p class="lead">Decentralized identity and naming system built on the blockchain</p>
-            <p class="lead">
-              <a href="#" class="btn btn-lg btn-default">Sign up</a>
-            </p>
-          </div>
+          <div ng-view=""></div>
           <!-- End Main -->
           <!-- Footer -->
           <div class="mastfoot">
@@ -98,7 +88,6 @@
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
-        <script src="scripts/controllers/about.js"></script>
         <script src="scripts/retina.min.js"></script>
         <!-- endbuild -->
 </body>
