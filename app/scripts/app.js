@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name digitalpassportinfoApp
+ * @name digitalpassportApp
  * @description
- * # digitalpassportinfoApp
+ * # digitalpassportApp
  *
  * Main module of the application.
  */
 angular
-  .module('digitalpassportinfoApp', [
+  .module('digitalpassportApp', [
     'ngResource',
     'ngRoute'
   ])

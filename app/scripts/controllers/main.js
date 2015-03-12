@@ -2,16 +2,12 @@
 
 /**
  * @ngdoc function
- * @name digitalpassportinfoApp.controller:MainCtrl
+ * @name digitalpassportApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the digitalpassportinfoApp
+ * Controller of the digitalpassportApp
  */
-angular.module('digitalpassportinfoApp')
+angular.module('digitalpassportApp')
   .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+    $scope.pageName = 'index';
   });
