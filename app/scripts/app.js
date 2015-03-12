@@ -11,7 +11,8 @@
 angular
   .module('digitalpassportApp', [
     'ngResource',
-    'ngRoute'
+    'ngRoute',
+    'ngRetina'
   ])
   .config(function ($routeProvider, $locationProvider) {
     $routeProvider
