@@ -21,13 +21,25 @@ a:hover {
 }
 
 /* Custom default button */
-.btn-default,
+.btn-default {
+  color: #fff; 
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background: transparent;
+  border:1px solid rgba(255,255,255,0.5);
+  -webkit-transition:all linear .1s;
+  transition:all linear .1s;
+}
+.btn-lg {
+  padding:15px 55px;
+  font-size: 13px; 
+  font-weight: 100;
+}
 .btn-default:hover,
 .btn-default:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
+  border:1px solid rgba(255,255,255,1);
+  background-color:rgba(255,255,255,1);
+  color: #222;
+  font-weight: 500;
 }
 
 
@@ -74,6 +86,24 @@ body {
 /*
  * Header
  */
+.navbar-inverse .navbar-toggle,
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:active,
+.navbar-inverse .navbar-toggle:focus {
+  float: left;
+  margin: 0;
+  padding: 9px 11px;
+  border-color: transparent;
+  margin: 20px 10px;
+  background: transparent; 
+}
+.navbar-toggle .icon-bar{
+  display: block;
+  width: 15px;
+  height: 1px;
+  border-radius: 1px;
+  background-color: #fff;
+}
 .starter-template {
   padding: 40px 15px;
   text-align: center;
@@ -114,25 +144,6 @@ body {
 /*.cover {
   margin-top: 50px;
 }*/
-.cover-heading {
-  font-size: 40px;
-}
-.cover .btn-lg {
-  background: transparent;
-  border:1px solid rgba(255,255,255,0.5);
-  font-size: 13px; 
-  color: #fff; 
-  padding:15px 55px; 
-  font-weight: 100;
-  -webkit-transition:all linear .1s;
-  transition:all linear .1s;
-}
-.cover .btn-lg:hover {
-  border:1px solid rgba(255,255,255,1);
-  background-color:rgba(255,255,255,1);
-  color: #222;
-  font-weight: 500;
-}
 .passport-wrap {
   margin-bottom:50px;
 }
@@ -186,6 +197,7 @@ body {
 }
 
 
+
 /*
  * Footer
  */
@@ -193,6 +205,10 @@ body {
 .mastfoot {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
+}
+
+.site-wrapper-inner {
+  background: linear-gradient(to bottom right, #2c96ff, #4a4c94, #54326f);
 }
 
 
@@ -214,7 +230,6 @@ body {
   /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: middle;
-    background: linear-gradient(to bottom right, #2c96ff, #4a4c94, #54326f);
   }
   /* Handle the widths */
   .masthead,
@@ -225,4 +240,7 @@ body {
 }
 
 @media (min-width: 992px) {
+  .cover-heading {
+  font-size: 40px;
+}
 }
