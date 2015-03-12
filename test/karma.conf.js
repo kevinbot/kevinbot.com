@@ -18,8 +18,15 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
+      'bower_components/jquery/dist/jquery.js',
+      'bower_components/angular/angular.js',
+      'bower_components/bootstrap/dist/js/bootstrap.js',
+      'bower_components/angular-resource/angular-resource.js',
+      'bower_components/angular-route/angular-route.js',
+      'bower_components/angular-mocks/angular-mocks.js',
       'app/scripts/**/*.js',
-      'test/mock/**/*.js',
+      'app/scripts/app.js',
+      //'test/mock/**/*.js',
       'test/spec/**/*.js'
     ],
 
@@ -38,13 +45,19 @@ module.exports = function(config) {
     // - PhantomJS
     // - IE (only Windows)
     browsers: [
-      'PhantomJS'
+      'PhantomJS',
+      'ChromeCanary',
+      'Firefox',
+      'Safari'
     ],
 
     // Which plugins to enable
     plugins: [
       'karma-phantomjs-launcher',
-      'karma-jasmine'
+      'karma-jasmine',
+      'karma-chrome-launcher',
+      'karma-firefox-launcher',
+      'karma-safari-launcher'
     ],
 
     // Continuous Integration mode
