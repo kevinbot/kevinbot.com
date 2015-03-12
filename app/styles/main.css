@@ -79,20 +79,24 @@ body {
   text-align: center;
 }
 .navbar-brand {
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 300;
 }
 .col-centered{
     float: none;
     margin: 0 auto;
 }
-.oldname {
-  padding: 17px 35px 15px 0; 
+.navbar-inverse .navbar-text {
+  margin:18px 35px 15px 0;
   font-size: 12px; 
   font-style: italic;
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
-  position: relative;
-  display: block;
+}
+.navbar-inverse .navbar-nav > li > a {
+  padding-top:16px;
+  font-size: 13px;
+  color: rgba(255,255,255,1);
 }
 .navbar-inverse {
   background: transparent; 
@@ -101,16 +105,15 @@ body {
 .navbar-inverse .navbar-brand {
   color: rgba(255,255,255,1);
 }
-.navbar-inverse .navbar-nav > li > a {
-  font-size: 13px;
-  color: rgba(255,255,255,1);
-}
 .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
   color: rgba(255,255,255,0.5);
 }
 .cover h1, .cover p {
   font-weight: 100;
 }
+/*.cover {
+  margin-top: 50px;
+}*/
 .cover-heading {
   font-size: 40px;
 }
@@ -211,7 +214,7 @@ body {
   /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: middle;
-    background: linear-gradient(to bottom right, #2c96ff, #54326f);
+    background: linear-gradient(to bottom right, #2c96ff, #4a4c94, #54326f);
   }
   /* Handle the widths */
   .masthead,
