@@ -46,7 +46,16 @@ img.forkmeGithub {height:75px; width:75px;}
 
 
 
-/* Header */
+/* -- Off-canvas -- */
+
+.uk-offcanvas, .uk-offcanvas-bar{z-index:2000;}
+.uk-offcanvas{background:rgba(0, 0, 0, 0.3);}
+.uk-offcanvas-bar{width:250px;background-color:#000;}/* ---- Removes off-canvas button ---- */ 
+.uk-button{background-color:transparent!important;background:none!important;margin:20px 10px;padding:2px 3px;}
+.uk-button:hover, .uk-button:focus, .uk-button:active{background-color:transparent!important;background:none!important;}
+.collapse {display:block;}
+
+/* -- Header -- */
 
 .navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:active, .navbar-inverse .navbar-toggle:focus {float: left;margin: 0;padding: 9px 11px;border-color: transparent;margin: 20px 10px;background: transparent;}
 .navbar-toggle .icon-bar{display: block;width: 15px;height: 1px;border-radius: 1px;background-color: #fff;}
@@ -97,6 +106,8 @@ img.forkmeGithub {height:75px; width:75px;}
 
   /* Cover */
   .cover {padding: 0 20px;}
+  .cover-heading {margin-bottom:30px;}
+  .lead {font-size: 14px; margin-bottom: 60px;}
 
   img.forkmeGithub {height:100px!important; width:100px!important;}
 
