@@ -6,240 +6,111 @@
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
+/* --------    #bfc1c2   SILVER   -------- */ ::selection{background:rgba(191,193,194,0.99);color:#fff;}::-moz-selection{background:rgba(192,192,192,0.99);color:#fff;}
+
+.group:after { visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0; }
+.group { display:inline-block; } /* start commented backslash hack \*/ * html .group { height:1%; } .group { display:block; } /* close commented backslash hack */
 
 
 
-/*
- * Globals
- */
+
+/* Globals */
 
 /* Links */
-a,
-a:focus,
-a:hover {
-  color: #fff;
-}
+a, a:focus, a:hover {color: #fff;}
 
 /* Custom default button */
-.btn-default {
-  color: #fff; 
-  text-shadow: none; /* Prevent inheritence from `body` */
-  background: transparent;
-  border:1px solid rgba(255,255,255,0.5);
-  -webkit-transition:all linear .1s;
-  transition:all linear .1s;
-}
-.btn-lg {
-  padding:15px 55px;
-  font-size: 13px; 
-  font-weight: 100;
-}
-.btn-default:hover,
-.btn-default:focus {
-  border:1px solid rgba(255,255,255,1);
-  background-color:rgba(255,255,255,1);
-  color: #222;
-  font-weight: 500;
-}
+.btn-default {color: #fff; text-shadow: none; /* Prevent inheritence from `body` */background: transparent;border:1px solid rgba(255,255,255,0.5);-webkit-transition:all linear .1s;transition:all linear .1s;}
+.btn-lg {padding:15px 55px;font-size: 13px; font-weight: 100;}
+.btn-default:hover,.btn-default:focus {border:1px solid rgba(255,255,255,1);background-color:rgba(255,255,255,1);color: #222;font-weight: 500;}
 
 
-/*
- * Base structure
- */
 
-html,
-body {
-  height: 100%;
-  background-color: #333;
-}
-body {
-  color: #fff;
-  text-align: center;
-  font-family: "proxima-nova",sans-serif; font-style: normal;
-  font-weight: 100!important;
-}
+
+/* Base structure */
+
+html, body {height: 100%;background-color: #333;}
+body {color: #fff;text-align: center;font-family: "proxima-nova",sans-serif; font-style: normal;font-weight: 100!important;}
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
-.site-wrapper {
-  display: table;
-  width: 100%;
-  height: 100%; /* For at least Firefox */
-  min-height: 100%;
-  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-}
-.site-wrapper-inner {
-  display: table-cell;
-  vertical-align: top;
-}
-.cover-container {
-  margin-right: auto;
-  margin-left: auto;
-}
+.site-wrapper {display: table;width: 100%;height: 100%; /* For at least Firefox */min-height: 100%; -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5); box-shadow: inset 0 0 100px rgba(0,0,0,.5);}
+.site-wrapper-inner {display: table-cell;vertical-align: top;}
+.cover-container {margin-right: auto;margin-left: auto;}
+
 /* Padding for spacing */
-.inner {
-  padding: 20px;
-  margin-top: 60px;
-}
+.inner {padding: 20px;margin-top: 60px;}
+
+.forkmeGithub {position:absolute; top:0; right:0; border:0; z-index:3000;}
+img.forkmeGithub {height:75px; width:75px;}
 
 
-/*
- * Header
- */
-.navbar-inverse .navbar-toggle,
-.navbar-inverse .navbar-toggle:hover,
-.navbar-inverse .navbar-toggle:active,
-.navbar-inverse .navbar-toggle:focus {
-  float: left;
-  margin: 0;
-  padding: 9px 11px;
-  border-color: transparent;
-  margin: 20px 10px;
-  background: transparent; 
-}
-.navbar-toggle .icon-bar{
-  display: block;
-  width: 15px;
-  height: 1px;
-  border-radius: 1px;
-  background-color: #fff;
-}
-.starter-template {
-  padding: 40px 15px;
-  text-align: center;
-}
-.navbar-brand {
-  font-size: 16px;
-  font-weight: 300;
-}
-.col-centered{
-    float: none;
-    margin: 0 auto;
-}
-.navbar-inverse .navbar-nav > li > a {
-  padding-top:16px;
-  font-size: 13px;
-  color: rgba(255,255,255,1);
-}
-.navbar-inverse {
-  background: transparent; 
-  border-color: transparent;
-}
-.navbar-inverse .navbar-brand {
-  color: rgba(255,255,255,1);
-}
-.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-  color: rgba(255,255,255,0.5);
-}
-.cover h1, .cover p {
-  font-weight: 100;
-}
-/*.cover {
-  margin-top: 50px;
-}*/
-.passport-wrap {
-  margin-bottom:50px;
-}
-.masthead-brand {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.masthead-nav > li {
-  display: inline-block;
-}
-.masthead-nav > li + li {
-  margin-left: 20px;
-}
-.masthead-nav > li > a {
-  padding-right: 0;
-  padding-left: 0;
-  font-size: 16px;
-  color: #fff; /* IE8 proofing */
-  color: rgba(255,255,255,.75);
-  border-bottom: 2px solid transparent;
-}
+
+
+/* Header */
+
+.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:active, .navbar-inverse .navbar-toggle:focus {float: left;margin: 0;padding: 9px 11px;border-color: transparent;margin: 20px 10px;background: transparent;}
+.navbar-toggle .icon-bar{display: block;width: 15px;height: 1px;border-radius: 1px;background-color: #fff;}
+.starter-template {padding: 40px 15px;text-align: center;}
+.navbar-brand {font-size: 16px;font-weight: 300;}
+.col-centered{float: none;margin: 0 auto;}
+.navbar-inverse .navbar-nav > li > a {padding-top:16px;font-size: 13px;color: rgba(255,255,255,1);}
+.navbar-inverse {background: transparent; border-color: transparent;}
+.navbar-inverse .navbar-brand {color: rgba(255,255,255,1);}
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {color: rgba(255,255,255,0.5);}
+.cover h1, .cover p {font-weight: 100;}
+.passport-wrap {margin-bottom:50px;}
+.masthead-brand {margin-top: 10px;margin-bottom: 10px;}
+.masthead-nav > li {display: inline-block;}
+.masthead-nav > li + li {margin-left: 20px;}
+.masthead-nav > li > a {padding-right: 0;padding-left: 0;font-size: 16px;color: #fff; /* IE8 proofing */color: rgba(255,255,255,.75);border-bottom: 2px solid transparent;}
 .masthead-nav > li > a:hover,
-.masthead-nav > li > a:focus {
-  background-color: transparent;
-  border-bottom-color: #a9a9a9;
-  border-bottom-color: rgba(255,255,255,.25);
-}
-.masthead-nav > .active > a,
-.masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
-}
-.navbar-inverse .navbar-text {
-  margin:18px 35px 15px 0;
-  font-size: 12px; 
-  font-style: italic;
-  color: #999; /* IE8 proofing */
-  color: rgba(255,255,255,.5);
-  }
+.masthead-nav > li > a:focus {background-color: transparent;border-bottom-color: #a9a9a9;border-bottom-color: rgba(255,255,255,.25);}
+.masthead-nav > .active > a, .masthead-nav > .active > a:hover, .masthead-nav > .active > a:focus {color: #fff;border-bottom-color: #fff;}
+.navbar-inverse .navbar-text {margin:18px 35px 15px 0;font-size: 12px; font-style: italic;color: #999; /* IE8 proofing */color: rgba(255,255,255,.5);}
+
+
+
+
+/* Footer */
+
+.mastfoot {color: #999; /* IE8 proofing */color: rgba(255,255,255,.5);}
+.site-wrapper-inner {background: linear-gradient(to bottom right, #2c96ff, #4a4c94, #54326f);}
+
+
+
+
+
+/* Media queries */
 
 @media (min-width: 768px) {
-  .masthead-brand {
-    float: left;
-  }
-  .masthead-nav {
-    float: right;
-  }
-}
+  .masthead-brand {float: left;}
+  .masthead-nav {float: right;}
 
-
-
-/*
- * Footer
- */
-
-.mastfoot {
-  color: #999; /* IE8 proofing */
-  color: rgba(255,255,255,.5);
-}
-
-.site-wrapper-inner {
-  background: linear-gradient(to bottom right, #2c96ff, #4a4c94, #54326f);
-}
-
-
-/*
- * Affix and center
- */
-
-@media (min-width: 768px) {
   /* Pull out the header and footer */
-  .masthead {
-    position: fixed;
-    top: 0;
-  }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-    font-size: 12px;
-  }
-  /* Start the vertical centering */
-  .site-wrapper-inner {
-    vertical-align: middle;
-  }
-  /* Handle the widths */
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
-  }
-  
-  /*
- * Cover
- */
+  .masthead {position: fixed;top: 0;}
+  .mastfoot {position: fixed;bottom: 0;font-size: 12px;}
 
-.cover {
-  padding: 0 20px;
+  /* Start the vertical centering */
+  .site-wrapper-inner {vertical-align: middle;}
+  /* Handle the widths */
+  .masthead, .mastfoot, .cover-container {width: 100%; /* Must be percentage or pixels for horizontal alignment */}
+
+  /* Cover */
+  .cover {padding: 0 20px;}
+
+  img.forkmeGithub {height:100px!important; width:100px!important;}
+
 }
-}
+
+
 
 @media (min-width: 992px) {
-  .cover-heading {
-  font-size: 40px;
+  .cover-heading {font-size: 40px;}
 }
-}
+
+
+
+
+
+
+

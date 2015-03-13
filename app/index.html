@@ -21,12 +21,17 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
+    <!-- Github Fork Me! -->
+    <a href="https://github.com/you"><img class="forkmeGithub" ng-src="/images/github-fork-me.png" width="100" height="100" alt="Fork me on GitHub"></a>
+    
     <div class="site-wrapper">
       <div class="site-wrapper-inner">
         <div class="cover-container">
-          <!-- Navbar -->
+
+          <!-- Navbar Mobile -->
           <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
               <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                   <span class="sr-only">Toggle navigation</span>
@@ -36,14 +41,14 @@
                 </button>
                 <a class="navbar-brand" href="http://digitalpassport.info">Digital Passport</a><p class="navbar-text">formerly Openname</p>
               </div>
-              <div id="navbar" class="collapse navbar-collapse pull-right">
-                <ul class="nav navbar-nav">
-                  <li></li>
-                  <li><a href="http://github.com/openname" target="_blank">Developers</a></li>
-                </ul>
-              </div><!--/.nav-collapse -->
-            </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                  <ul class="nav navbar-nav">
+                    <li><a href="http://github.com/openname" target="_blank">Developers</a></li>
+                  </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
           </nav>
+
           <!-- End Navbar -->
           <!-- Main -->
           <div ng-view=""></div>
