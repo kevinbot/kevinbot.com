@@ -11,6 +11,9 @@
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <!-- endbower -->
+    <!-- jasny:css -->
+    <link rel="stylesheet" href="styles/jasny-bootstrap.min.css" />
+    <!-- endjasny -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
@@ -21,29 +24,59 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
+    <!-- Fork me on Github -->
+    <a href="https://github.com/you"><img class="forkmeGithub" ng-src="/images/github-fork-me.png" width="100" height="100" alt="Fork me on GitHub"></a>
+    
     <div class="site-wrapper">
       <div class="site-wrapper-inner">
         <div class="cover-container">
-          <!-- Navbar -->
-          <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                  <span class="sr-only">Toggle navigation</span>
+
+          <!-- Navbar  -->          
+          <div class="navmenu navmenu-default navmenu-fixed-left offcanvas">
+            <a class="navmenu-brand" href="#">Project name</a>
+            <ul class="nav navmenu-nav">
+              <li><a href="../navmenu/">Slide in</a></li>
+              <li class="active"><a href="./">Push</a></li>
+              <li><a href="../navmenu-reveal/">Reveal</a></li>
+              <li><a href="../navbar-offcanvas/">Off canvas navbar</a></li>
+            </ul>
+            <ul class="nav navmenu-nav">
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                <ul class="dropdown-menu navmenu-nav">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="http://digitalpassport.info">Digital Passport</a><p class="navbar-text">formerly Openname</p>
+          <nav class="navbar navbar-inverse navbar-fixed-top" style="">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
               </div>
-              <div id="navbar" class="collapse navbar-collapse pull-right">
-                <ul class="nav navbar-nav">
-                  <li></li>
-                  <li><a href="http://github.com/openname" target="_blank">Developers</a></li>
-                </ul>
-              </div><!--/.nav-collapse -->
-            </div>
+              <a class="navbar-brand" href="http://digitalpassport.info">Digital Passport</a><p class="navbar-text">formerly Openname</p>
+            </div><!-- /.container-fluid -->
           </nav>
+          
           <!-- End Navbar -->
           <!-- Main -->
           <div ng-view=""></div>
@@ -90,6 +123,7 @@
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/jasny-bootstrap.min.js"></script>
         <!-- endbuild -->
 </body>
 </html>
