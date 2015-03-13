@@ -76,7 +76,6 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
-
 /* Padding for spacing */
 .inner {
   padding: 20px;
@@ -177,7 +176,6 @@ body {
   font-style: italic;
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
-  float:left;
   }
 
 @media (min-width: 768px) {
@@ -187,11 +185,7 @@ body {
   .masthead-nav {
     float: right;
   }
-
 }
-
-
-
 
 
 
