@@ -2,9 +2,9 @@
 
 ### Overview
 
-This is a front-end JS application built with AngularJS and Bootstrap.
+This is a front-end JS application built with [AngularJS](https://angularjs.org/) and [Bootstrap](http://getbootstrap.com/).
 
-The app uses bower as a frontend JS package manager, grunt as a JS task runner (previewing the app, building the app, etc.), Karma for running unit tests, and Node and npm to manage all the various JS tools (and also for deployment on heroku). The original structure of the app was auto-generated with Yeoman.
+The app uses [Bower](http://bower.io/) as a frontend JS package manager, [Grunt](http://gruntjs.com/) as a JS task runner (previewing the app, building the app, etc.), [Karma](http://karma-runner.github.io/0.12/index.html) for running unit tests, and [Node](https://nodejs.org/) and [npm](https://www.npmjs.com/) to manage all the various JS tools (and also for deployment on [Heroku](http://heroku.com)). The original structure of the app was auto-generated with [Yeoman](http://yeoman.io/).
 
 ### Installation
 
