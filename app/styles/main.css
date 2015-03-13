@@ -79,7 +79,8 @@ body {
 
 /* Padding for spacing */
 .inner {
-  padding: 30px;
+  padding: 20px;
+  margin-top: 60px;
 }
 
 
@@ -115,13 +116,6 @@ body {
 .col-centered{
     float: none;
     margin: 0 auto;
-}
-.navbar-inverse .navbar-text {
-  margin:18px 35px 15px 0;
-  font-size: 12px; 
-  font-style: italic;
-  color: #999; /* IE8 proofing */
-  color: rgba(255,255,255,.5);
 }
 .navbar-inverse .navbar-nav > li > a {
   padding-top:16px;
@@ -177,6 +171,14 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
+.navbar-inverse .navbar-text {
+  margin:18px 35px 15px 0;
+  font-size: 12px; 
+  font-style: italic;
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+  float:left;
+  }
 
 @media (min-width: 768px) {
   .masthead-brand {
@@ -185,16 +187,11 @@ body {
   .masthead-nav {
     float: right;
   }
+
 }
 
 
-/*
- * Cover
- */
 
-.cover {
-  padding: 0 20px;
-}
 
 
 
@@ -237,6 +234,14 @@ body {
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
+  
+  /*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
 }
 
 @media (min-width: 992px) {
