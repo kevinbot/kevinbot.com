@@ -12,10 +12,7 @@
 .group { display:inline-block; } /* start commented backslash hack \*/ * html .group { height:1%; } .group { display:block; } /* close commented backslash hack */
 
 
-
-
 /* Globals */
-
 /* Links */
 a, a:focus, a:hover {color: #fff;}
 
@@ -25,10 +22,7 @@ a, a:focus, a:hover {color: #fff;}
 .btn-default:hover,.btn-default:focus {border:1px solid rgba(255,255,255,1);background-color:rgba(255,255,255,1);color: #222;font-weight: 500;}
 
 
-
-
 /* Base structure */
-
 html, body {height: 100%;background-color: #333;}
 body {color: #fff;text-align: center;font-family: "proxima-nova",sans-serif; font-style: normal;font-weight: 100!important;}
 
@@ -44,19 +38,13 @@ body {color: #fff;text-align: center;font-family: "proxima-nova",sans-serif; fon
 img.forkmeGithub {height:75px; width:75px;}
 
 
-
-
 /* -- Off-canvas -- */
-
-.uk-offcanvas, .uk-offcanvas-bar{z-index:2000;}
-.uk-offcanvas{background:rgba(0, 0, 0, 0.3);}
-.uk-offcanvas-bar{width:250px;background-color:#000;}/* ---- Removes off-canvas button ---- */ 
-.uk-button{background-color:transparent!important;background:none!important;margin:20px 10px;padding:2px 3px;}
-.uk-button:hover, .uk-button:focus, .uk-button:active{background-color:transparent!important;background:none!important;}
+.navmenu {font-weight: 300!important;}
+.dropdown-header {font-weight: 500!important;}
 .collapse {display:block;}
 
-/* -- Header -- */
 
+/* -- Header -- */
 .navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:active, .navbar-inverse .navbar-toggle:focus {float: left;margin: 0;padding: 9px 11px;border-color: transparent;margin: 20px 10px;background: transparent;}
 .navbar-toggle .icon-bar{display: block;width: 15px;height: 1px;border-radius: 1px;background-color: #fff;}
 .starter-template {padding: 40px 15px;text-align: center;}
@@ -78,19 +66,12 @@ img.forkmeGithub {height:75px; width:75px;}
 .navbar-inverse .navbar-text {margin:18px 35px 15px 0;font-size: 12px; font-style: italic;color: #999; /* IE8 proofing */color: rgba(255,255,255,.5);}
 
 
-
-
 /* Footer */
-
 .mastfoot {color: #999; /* IE8 proofing */color: rgba(255,255,255,.5);}
 .site-wrapper-inner {background: linear-gradient(to bottom right, #2c96ff, #4a4c94, #54326f);}
 
 
-
-
-
 /* Media queries */
-
 @media (min-width: 768px) {
   .masthead-brand {float: left;}
   .masthead-nav {float: right;}
@@ -110,9 +91,7 @@ img.forkmeGithub {height:75px; width:75px;}
   .lead {font-size: 14px; margin-bottom: 60px;}
 
   img.forkmeGithub {height:100px!important; width:100px!important;}
-
 }
-
 
 
 @media (min-width: 992px) {
