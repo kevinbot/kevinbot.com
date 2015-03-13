@@ -1,6 +1,6 @@
-# digitalpassport
+# digitalpassport.info
 
-## Installation
+### Installation
 
 1) Clone the project
 
@@ -20,7 +20,7 @@ $ npm install
 $ bower install
 ```
 
-## Running in development
+### Running in development
 
 Serve a preview of the application:
 
@@ -28,7 +28,7 @@ Serve a preview of the application:
 $ grunt serve
 ```
 
-## Testing
+### Testing
 
 Run the unit tests with karma:
 
@@ -36,35 +36,36 @@ Run the unit tests with karma:
 $ grunt test
 ```
 
-## Building the app
+### Building
+
+Build the app resources:
 
 ```
 $ grunt build
 ```
 
-## Deploying on nginx or apache
+*Note: make sure you've built and committed the app resources (in the /dist folder) before you deploy the app.*
 
-1) Build the app resources
+### Deploying on nginx or apache
 
-2) Commit the files in the /dist folder and move them to the server
+1) Build, commit, and move the app resources to the server
 
-3) Make sure your server is configured to serve the files
+2) Make sure your server is properly configured to serve the files
 
-## Deploying on Heroku
+### Deploying on Heroku
 
 1) Build and commit the app resources
-```
-build
-```
+
 2) Create a heroku app and push to it
 ```
 $ heroku create
+$ heroku ps:scale web=1
 $ git push heroku master
 ```
 
-## Running the deployment version locally
+### Running the deployment version locally
 
-1) Build the app resources
+1) Build and commit the app resources
 
 2) Run the app
 
