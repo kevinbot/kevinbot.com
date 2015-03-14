@@ -10,7 +10,8 @@
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="bower_components/jasny-bootstrap/dist/css/jasny-bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/normalize.css/normalize.css" />
+    <link rel="stylesheet" href="bower_components/sidebar-transitions/dist/css/sidebar-transitions.min.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
@@ -23,51 +24,50 @@
     <![endif]-->
 
     <!-- Fork me on Github -->
-    <a href="https://github.com/you"><img class="forkmeGithub" ng-src="/images/github-fork-me.png" width="100" height="100" alt="Fork me on GitHub"></a>
+    <!--<a href="https://github.com/you"><img class="forkmeGithub" ng-src="/images/github-fork-me.png" width="100" height="100" alt="Fork me on GitHub"></a>-->
     
     <div class="site-wrapper">
       <div class="site-wrapper-inner">
         <div class="cover-container">
 
-          <!-- Navbar  -->          
-          <div class="navmenu navmenu-inverse navmenu-default navmenu-fixed-left offcanvas">
-            <a class="navmenu-brand" href="#">Project name</a>
-            <ul class="nav navmenu-nav">
-              <li><a href="../navmenu/">Slide in</a></li>
-              <li class="active"><a href="./">Push</a></li>
-              <li><a href="../navmenu-reveal/">Reveal</a></li>
-              <li><a href="../navbar-offcanvas/">Off canvas navbar</a></li>
-            </ul>
-            <ul class="nav navmenu-nav">
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                <ul class="dropdown-menu navmenu-nav">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
+          <div id="st-container" class="st-container">
+            <div class="st-pusher">
+              <nav class="st-menu st-effect-3" id="menu-3">
+                <h2 class="icon icon-lab">Sidebar</h2>
+                <ul>
+                  <li><a class="icon icon-data" href="#">Data Management</a></li>
+                  <li><a class="icon icon-location" href="#">Location</a></li>
+                  <li><a class="icon icon-study" href="#">Study</a></li>
+                  <li><a class="icon icon-photo" href="#">Collections</a></li>
+                  <li><a class="icon icon-wallet" href="#">Credits</a></li>
                 </ul>
-              </li>
-            </ul>
-          </div>
+              </nav>
+
+              <div class="st-content"><!-- this is the wrapper for the content -->
+                <div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
+                  <!-- Top Navigation -->
+                  <div class="main clearfix">
+                    <div id="st-trigger-effects" class="column">
+                      <button data-effect="st-effect-3">Push</button>
+                    </div>
+                  </div><!-- /main -->
+                </div><!-- /st-content-inner -->
+              </div><!-- /st-content -->
+            </div><!-- /st-pusher -->
+          </div><!-- /st-container -->
+
           <nav class="navbar navbar-inverse navbar-top" style="">
             <div class="container-fluid">
               <!-- Brand and toggle get grouped for better mobile display -->
               <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+                <button type="button" class="navbar-toggle" data-effect="st-effect-3">
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
               </div>
               <div class="conatainer-fluid col-centered">
-              <a class="navbar-brand" href="http://digitalpassport.info">Digital Passport</a>
+              <a class="navbar-brand" href="#">Digital Passport</a>
               <span class="navbar-text">formerly Openname</span>
               </div>
             </div><!-- /.container-fluid -->
@@ -113,7 +113,8 @@
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/retina.js/dist/retina.js"></script>
     <script src="bower_components/angular-retina/build/angular-retina.js"></script>
-    <script src="bower_components/jasny-bootstrap/dist/js/jasny-bootstrap.js"></script>
+    <script src="bower_components/classie/classie.js"></script>
+    <script src="bower_components/sidebar-transitions/dist/js/sidebar-transitions.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
