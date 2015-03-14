@@ -26,6 +26,7 @@ module.exports = function(config) {
       'bower_components/angular-route/angular-route.js',
       'bower_components/retina.js/dist/retina.js',
       'bower_components/angular-retina/build/angular-retina.js',
+      'bower_components/jasny-bootstrap/dist/js/jasny-bootstrap.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
       'app/scripts/**/*.js',
