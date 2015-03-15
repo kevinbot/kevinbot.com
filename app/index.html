@@ -26,71 +26,66 @@
     <!-- Fork me on Github -->
     <a href="https://github.com/you"><img class="forkmeGithub" ng-src="/images/github-fork-me.png" width="100" height="100" alt="Fork me on GitHub"></a>
     
-    <div class="site-wrapper">
-      <div class="site-wrapper-inner">
-        <div class="cover-container">
+    <div id="st-container" class="st-container">
+      <div class="cover-container">
 
-          <div id="st-container" class="st-container">
+        <!-- ...  Sidebar-transition "Push effect 3" is under the push wrapper  ... -->
+        <div class="st-pusher">
 
-            <!-- Sidebar-transition "Push effect 3" is under the push wrapper -->
-            
-            <div class="st-pusher">
-              <nav class="st-menu st-effect-3" id="menu-3">
-                <h2 class="icon icon-lab">Sidebar</h2>
-                <ul>
-                  <li><a class="icon icon-data" href="#">Data Management</a></li>
-                  <li><a class="icon icon-location" href="#">Location</a></li>
-                  <li><a class="icon icon-study" href="#">Study</a></li>
-                  <li><a class="icon icon-photo" href="#">Collections</a></li>
-                  <li><a class="icon icon-wallet" href="#">Credits</a></li>
-                </ul>
-              </nav>
-
-              <div class="st-content"><!-- this is the wrapper for the content -->
-                <div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
-                  <!-- Top Navigation -->
-                  <div class="main clearfix">
-                    <div id="st-trigger-effects" class="column">
-                      <button data-effect="st-effect-3">Push</button>
-                    </div>
-                  </div><!-- /main -->
-                </div><!-- /st-content-inner -->
-              </div><!-- /st-content -->
-            </div><!-- /st-pusher -->
-          </div><!-- /st-container -->
-
-          <nav class="navbar navbar-inverse navbar-top" style="">
-            <div class="container-fluid">
-              <!-- Brand and toggle get grouped for better mobile display -->
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-effect="st-effect-3">
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-              </div>
-              <div class="conatainer-fluid col-centered">
-              <a class="navbar-brand" href="#">Digital Passport</a>
-              <span class="navbar-text">formerly Openname</span>
-              </div>
-            </div><!-- /.container-fluid -->
+          <!-- Sidebar -->
+          <nav class="st-menu st-effect-3" id="menu-3">
+            <h2 class="icon icon-lab">Sidebar</h2>
+            <ul>
+              <li><a class="icon icon-data" href="#">Data Management</a></li>
+              <li><a class="icon icon-location" href="#">Location</a></li>
+              <li><a class="icon icon-study" href="#">Study</a></li>
+              <li><a class="icon icon-photo" href="#">Collections</a></li>
+              <li><a class="icon icon-wallet" href="#">Credits</a></li>
+            </ul>
           </nav>
-          
-          <!-- End Navbar -->
-          <!-- Main -->
-          <div ng-view=""></div>
-          <!-- End Main -->
-          <!-- Footer -->
-          <div class="mastfoot">
-            <div class="inner">
-              <p>This is an <a href="https://github.com/digitalpassport/digitalpassport.info">open sourced</a> site hosted on <a href="http://github.com/openname">GitHub</a>.
-              Patches, suggestions and comments are welcome.</p>
+          <!-- / Sidebar -->
+
+          <div class="st-content"><!--  ...  This is the wrapper for the content  ...  -->
+            <div class="st-content-inner"><!--  ...  Extra div for emulating position:fixed of the menu  ...  -->
+              <!-- Top Navigation -->
+              <div class="main clearfix">
+
+                <!-- / Navbar -->
+                <nav class="navbar navbar-inverse navbar-top">
+                  <div class="container-fluid">
+                  <!--  ...  Brand and toggle get grouped for better mobile display  ...  -->
+                  <div id="st-trigger-effects" class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-effect="st-effect-3">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                  </div>
+                  <div class="conatainer-fluid col-centered">
+                    <a class="navbar-brand" href="#">Digital Passport</a>
+                    <span class="navbar-text">formerly Openname</span>
+                  </div>
+                </div><!-- /.container-fluid -->
+              </nav>
+              <!-- / Navbar -->
+
+              <!-- Content -->
+              <div ng-view=""></div>
+              <!-- / Content -->
+
+              <!-- Footer -->
+              <div class="mastfoot">
+                <div class="inner">
+                  <p>This is an <a href="https://github.com/digitalpassport/digitalpassport.info">open sourced</a> site hosted on <a href="http://github.com/openname">GitHub</a>. Patches, suggestions and comments are welcome.</p>
+                </div>
+              </div>
+              <!-- / Footer -->                  
             </div>
           </div>
-          <!-- End Footer -->
-        </div><!--/.cover-container -->
-      </div><!--/.site-wrapper-inner -->
-    </div><!--/.site-wrapper -->
+        </div>
+      </div><!-- /.st-pusher -->
+    </div><!-- /.cover-container -->
+  </div><!-- /st-container -->
 
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->

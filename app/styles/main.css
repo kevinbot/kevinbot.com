@@ -29,18 +29,18 @@ body {color: #fff;text-align: center;font-family: "proxima-nova",sans-serif; fon
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {display: table;width: 100%;height: 100%; /* For at least Firefox */min-height: 100%; -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5); box-shadow: inset 0 0 100px rgba(0,0,0,.5);}
 .site-wrapper-inner {display: table-cell;vertical-align: top;}
-.cover-container {margin-right: auto;margin-left: auto;}
+.cover-container {margin-right: auto;margin-left: auto; height:100%;}
 
 /* Padding for spacing */
 .inner {padding: 20px;}
 
-.forkmeGithub {position:absolute; top:0; right:0; border:0; z-index:3000;}
+.forkmeGithub {position:absolute; top:0; right:0; border:0; z-index:98;}
 img.forkmeGithub {height:75px; width:75px;}
 
 
-/* -- Off-canvas -- */
-.navmenu {font-weight: 300!important;}
-.dropdown-header {font-weight: 500!important;}
+/* -- Sidebar Transitions -- */
+.st-content {background: linear-gradient(to bottom right, #2c96ff, #4a4c94, #54326f);}
+.no-csstransforms3d .st-pusher, .no-js .st-pusher {padding-left: 0px;}
 
 
 
@@ -55,7 +55,7 @@ img.forkmeGithub {height:75px; width:75px;}
 .navbar-inverse .navbar-brand {color: rgba(255,255,255,1);}
 .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {color: rgba(255,255,255,0.5);}
 .cover h1, .cover p {font-weight: 100;}
-.passport-wrap {margin-bottom:50px;}
+.passport-wrap {margin-bottom:50px; max-width: 840px;}
 .masthead-brand {margin-top: 10px;margin-bottom: 10px;}
 .masthead-nav > li {display: inline-block;}
 .masthead-nav > li + li {margin-left: 20px;}
