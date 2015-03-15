@@ -34,7 +34,7 @@ body {color: #fff;text-align: center;font-family: "proxima-nova",sans-serif; fon
 /* Padding for spacing */
 .inner {padding: 20px;}
 
-.forkmeGithub {position:absolute; top:0; right:0; border:0; z-index:98;}
+.forkmeGithub {position:absolute; top:0; right:0; border:0; /*z-index:100;*/}
 img.forkmeGithub {height:75px; width:75px;}
 
 
