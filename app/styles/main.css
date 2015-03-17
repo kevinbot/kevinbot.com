@@ -46,8 +46,15 @@ img.forkmeGithub {height:75px; width:75px;}
 .st-menu {background-color: #343434;}
 .st-menu ul li a:hover, .st-menu ul li:first-child a:focus {color: rgba(255,255,255,1); background-color: rgba(0,0,0,.2);}
 .st-menu ul li a, .st-menu ul li:first-child a {box-shadow: none; color:#999; text-transform: none; letter-spacing:0px; font-weight:300;}
-
 .st-menu h2 {color: rgba(255,255,255,0.75); font-size: 17px; font-weight:300;margin: 10px 0px;}
+
+
+
+/* -- Jumbotron -- */
+.jumbotron {margin-top: 50px!important; padding: 58px 25px; border-radius: 6px; background-color: #fff;margin-bottom: 300px!important;}
+.jumbotron .lead {color:#343434;font-weight: 300;letter-spacing: 0;padding-left: 25px;padding-right: 25px;}
+h1.passprovider {color:#343434;font-weight: 400;letter-spacing: 0;font-size: 32px;}
+a.btn.btn-primary.btn-lg.btn-provider {font-weight:500!important;margin-top: 32px; margin-right: 10px; margin-left: 10px;}
 
 
 
@@ -80,7 +87,7 @@ img.forkmeGithub {height:75px; width:75px;}
 
 
 /* Footer */
-.mastfoot {position: fixed;bottom:0; color: #999; /* IE8 proofing */color: rgba(255,255,255,.5); font-size: 12px; height:125px; background-color: rgba(0,0,0,.25); margin: 120px auto 0 auto; width:100%;}
+.mastfoot {position: fixed;bottom:0; color: #999; /* IE8 proofing */color: rgba(255,255,255,.5); font-size: 12px; height:175px; background-color: rgba(0,0,0,.25); margin: 120px auto 0 auto; width:100%;}
 .site-wrapper-inner {background: linear-gradient(to bottom right, #2c96ff, #4a4c94, #54326f);}
 
 
@@ -88,6 +95,7 @@ img.forkmeGithub {height:75px; width:75px;}
 @media (min-width: 768px) {
   .masthead-brand {float: left;}
   .masthead-nav {float: right;}
+  .jumbotron {width: 550px; margin-top:160px!important;}
 
   /* Pull out the header and footer */
   .masthead {position: fixed;top: 0;}
