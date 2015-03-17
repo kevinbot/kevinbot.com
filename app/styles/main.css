@@ -69,7 +69,7 @@ a.btn.btn-primary.btn-lg.btn-provider {font-weight:500!important;margin-top: 32p
 .navbar-inverse .navbar-brand {color: rgba(255,255,255,1);}
 .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {color: rgba(255,255,255,0.5);}
 .cover h1, .cover p {font-weight: 100;}
-.passport-wrap {margin-bottom:50px; max-width: 840px;}
+.passport-wrap {margin-bottom:50px; max-width: 750px;}
 .masthead-brand {margin-top: 10px;margin-bottom: 10px;}
 .masthead-nav > li {display: inline-block;}
 .masthead-nav > li + li {margin-left: 20px;}
