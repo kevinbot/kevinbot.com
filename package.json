@@ -6,6 +6,7 @@
   },
   "repository": {},
   "devDependencies": {
+    "connect-modrewrite": "^0.7.11",
     "express": "^4.12.2",
     "grunt": "^0.4.5",
     "grunt-autoprefixer": "^2.0.0",
