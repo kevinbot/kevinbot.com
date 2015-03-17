@@ -87,7 +87,7 @@ a.btn.btn-primary.btn-lg.btn-provider {font-weight:500!important;margin-top: 32p
 
 
 /* Footer */
-.mastfoot {position: fixed;bottom:0; color: #999; /* IE8 proofing */color: rgba(255,255,255,.5); font-size: 12px; height:175px; background-color: rgba(0,0,0,.25); margin: 120px auto 0 auto; width:100%;}
+.mastfoot {position: fixed;bottom:0; color: #999; /* IE8 proofing */color: rgba(255,255,255,.5); font-size: 12px; height:200px; background-color: rgba(0,0,0,.25); margin: 120px auto 0 auto; width:100%;}
 .site-wrapper-inner {background: linear-gradient(to bottom right, #2c96ff, #4a4c94, #54326f);}
 
 
@@ -99,7 +99,7 @@ a.btn.btn-primary.btn-lg.btn-provider {font-weight:500!important;margin-top: 32p
 
   /* Pull out the header and footer */
   .masthead {position: fixed;top: 0;}
-  .mastfoot {position: relative; margin: 160px auto 0 auto;}
+  .mastfoot {position: relative; margin: 200px auto 0 auto;}
 
   /* Start the vertical centering */
   /*.site-wrapper-inner {vertical-align: middle;}*/
@@ -110,9 +110,9 @@ a.btn.btn-primary.btn-lg.btn-provider {font-weight:500!important;margin-top: 32p
   .navbar-text {float:left; margin:18px 35px 15px 0;}
 
   /* Cover */
-  .cover {padding: 0 20px; margin-top: 100px;}
+  .cover {padding: 0 20px; margin-top: 40px;}
   .cover-heading {margin-bottom:30px;}
-  .lead {margin-bottom: 60px;}
+  .lead {margin-bottom: 30px;}
 
   img.forkmeGithub {height:100px!important; width:100px!important;}
 }
@@ -120,7 +120,7 @@ a.btn.btn-primary.btn-lg.btn-provider {font-weight:500!important;margin-top: 32p
 
 @media (min-width: 992px) {
   .cover-heading {font-size: 40px;}
-  .mastfoot {position: relative; margin: 120px auto 0 auto;}
+  .mastfoot {position: relative; margin: 150px auto 0 auto;}
 
 }
 
