@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="bower_components/normalize.css/normalize.css" />
     <link rel="stylesheet" href="bower_components/sidebar-transitions/dist/css/sidebar-transitions.min.css" />
+    <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
@@ -33,41 +34,36 @@
           
 
           <!-- Sidebar -->
-          <!-- <nav class="st-menu st-effect-3" id="menu-3">
-            <h2 class="icon icon-lab">Sidebar</h2>
-            <ul>
-              <li><a class="icon icon-data" href="#">Data Management</a></li>
-              <li><a class="icon icon-location" href="#">Location</a></li>
-              <li><a class="icon icon-study" href="#">Study</a></li>
-              <li><a class="icon icon-photo" href="#">Collections</a></li>
-              <li><a class="icon icon-wallet" href="#">Credits</a></li>
-            </ul>
-          </nav> -->
+          <nav id="menu3" class="st-menu st-effect-3 menu slideout-menu">
+            <a href="https://github.com/digitalpassport/digitalpassport.info" target="_blank">
+              <header class="menu-header">
+                <i class="fa fa-github fa-2x"></i><span class="menu-header-title">View on Github</span>
+              </header>
+            </a>
 
-          <nav class="st-menu st-effect-3" id="menu-3">
-            <div class="navmenu navmenu-inverse navmenu-default navmenu-fixed-left offcanvas">
-              <h2 class="icon icon-lab">Digital Passport</h2>
-              <ul class="nav navmenu-nav">
-                <li><a href="http://github.com/openname" target="_blank">Developers</a></li>
+            <section class="menu-section">
+              <h3 class="menu-section-title">For Developers</h3>
+              <ul class="menu-section-list">
+                <li><a href="https://github.com/digitalpassport/digitalpassport.info" target="_blank">Code</a></li>
+                <li><a href="https://github.com/digitalpassport/digitalpassport.info/issues" target="_blank">Create an issue</a></li>
+                <li><a href="https://github.com/digitalpassport/digitalpassport.info/pulse">Pulse</a></li>
               </ul>
-              <!-- <ul class="nav navmenu-nav">
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                  <ul class="dropdown-menu navmenu-nav">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li>
-              </ul> -->
-            </div>
+            </section>
+
+            <section class="menu-section">
+              <h3 class="menu-section-title">Docs</h3>
+              <ul class="menu-section-list">
+                <li><a href="https://github.com/digitalpassport/digitalpassport.info/wiki" target="_blank">Wiki</a></li>
+              </ul>
+            </section>
+
+            <section class="menu-section">
+              <h3 class="menu-section-title">Digital Passport</h3>
+              <ul class="menu-section-list">
+                <!-- <li><a href="https://digitalpassport.info/" target="_blank">About Digital Passport</a></li> -->
+                <li><a href="https://twitter.com/digipassport" target="_blank">Twitter</a></li>
+              </ul>
+            </section>
           </nav>
 
 
