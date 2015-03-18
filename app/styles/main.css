@@ -26,6 +26,7 @@ a, a:focus, a:hover {color: #fff;}
 html, body {height: 100%;background-color: #333;}
 body {color: #fff;text-align: center;font-family: "proxima-nova",sans-serif; font-style: normal;font-weight: 100!important;}
 
+
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {display: table;width: 100%;height: 100%; /* For at least Firefox */min-height: 100%; -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5); box-shadow: inset 0 0 100px rgba(0,0,0,.5);}
 .site-wrapper-inner {display: table-cell;vertical-align: top;}
@@ -33,9 +34,9 @@ body {color: #fff;text-align: center;font-family: "proxima-nova",sans-serif; fon
 
 /* Padding for spacing */
 .inner {padding: 20px;}
-
-.forkmeGithub { position: absolute; top: 0; right: 0; border: 0; /*z-index:100;*/}
+.forkmeGithub {position: absolute; top: 0; right: 0; border: 0; /*z-index:100;*/}
 img.forkmeGithub { height: 75px; width: 75px;}
+
 
 
 /* -- Sidebar Transitions -- */
@@ -54,8 +55,7 @@ img.forkmeGithub { height: 75px; width: 75px;}
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d1f20', endColorstr='#404348',GradientType=0 ); /* IE6-9 */
 }
 .st-menu ul li a:hover, .st-menu ul li:first-child a:focus {color: rgba(255,255,255,1); text-decoration: none; background-color: rgba(255,255,255,.1);transition: none;}
-.st-menu ul li a, .st-menu ul li:first-child a {box-shadow: none; color:#fff; display: block;
-  padding: 10px 20px; text-transform: none; font-weight: 100; letter-spacing:0px; font-size:100%/1.4em;}
+.st-menu ul li a, .st-menu ul li:first-child a {box-shadow: none; color:#fff; display: block; padding: 10px 20px; text-transform: none; font-weight: 200; letter-spacing:0px; font-size:100%/1.4em;}
 .st-menu h2 {color: rgba(255,255,255,0.75); font-size: 17px;margin: 10px 0px;}
 .st-effect-3.st-menu-open .st-pusher {transform: translate3d(256px,0,0);}
 h3 {display: block; font-size: 1.17em;
@@ -71,6 +71,7 @@ i.fa.fa-github.fa-2x {position: absolute; margin:-5px 0 0 -28px;}
 .menu-header {border-bottom: 1px solid #2a2d2f; padding: 20px 0 20px 50px; background: url('../assets/github.png') no-repeat 15px 15px; background-size: 32px;}
 .menu-section-title {text-transform: uppercase; color: #85888d; font-weight: 200; font-size: 12px; letter-spacing: 1px; padding: 0 20px; margin: 0;}
 .menu-header-title {margin: 0 0 0 10px;}
+.twitter-hashtag-button {margin-left: 20px;}
 
 /* -- Jumbotron -- */
 .jumbotron {margin-top: 30px!important; padding: 40px 25px; border-radius: 6px; background-color: #F2F2F0; margin-bottom: 300px!important;
@@ -112,7 +113,6 @@ a.btn.btn-primary.btn-lg.btn-provider:hover {background-color:#2378cc;border-col
 
 
 
-
 /* Footer */
 .mastfoot {position: relative; color: #999; /* IE8 proofing */color: rgba(255,255,255,.5); font-size: 12px; height:300px; background-color: rgba(0,0,0,.25); margin: 120px auto 0 auto; width:100%;}
 .site-wrapper-inner {
@@ -125,6 +125,7 @@ a.btn.btn-primary.btn-lg.btn-provider:hover {background-color:#2378cc;border-col
   background: linear-gradient(135deg,  #2c96ff 0%,#54326f 100%,#54326f 101%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c96ff', endColorstr='#54326f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
+
 
 
 /* Media queries */
@@ -152,7 +153,6 @@ a.btn.btn-primary.btn-lg.btn-provider:hover {background-color:#2378cc;border-col
 
   img.forkmeGithub {height:100px!important; width:100px!important;}
 }
-
 
 @media (min-width: 992px) {
   .cover-heading {font-size: 40px;}
