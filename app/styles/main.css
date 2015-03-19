@@ -23,7 +23,7 @@ a, a:focus, a:hover {color: #fff;}
 
 
 /* Base structure */
-html, body {background-color: #333;}
+html, body {background-color: #333; height: auto!important;}
 body {color: #fff;text-align: center;font-family: "proxima-nova",sans-serif; font-style: normal;font-weight: 100!important;}
 
 
