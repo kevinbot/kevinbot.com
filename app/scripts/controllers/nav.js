@@ -8,5 +8,9 @@
  * Controller of the digitalpassportApp
  */
 angular.module('digitalpassportApp')
-  .controller('NavCtrl', function () {
+  .controller('NavCtrl', function ($scope, $location) {
+    $scope.scroll = function() {
+      $location.hash(null);
+      //$anchorScroll();
+    };
   });
