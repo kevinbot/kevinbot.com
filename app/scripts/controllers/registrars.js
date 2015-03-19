@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name digitalpassportApp.controller:ProvidersCtrl
+ * @name digitalpassportApp.controller:RegistrarsCtrl
  * @description
- * # ProvidersCtrl
+ * # RegistrarsCtrl
  * Controller of the digitalpassportApp
  */
 angular.module('digitalpassportApp')
-  .controller('ProvidersCtrl', function ($location, $anchorScroll) {
+  .controller('RegistrarsCtrl', function ($location, $anchorScroll) {
     $location.hash('main');
     $anchorScroll();
     $location.hash(null);
