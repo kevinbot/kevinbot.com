@@ -8,9 +8,5 @@
  * Controller of the digitalpassportApp
  */
 angular.module('digitalpassportApp')
-  .controller('NavCtrl', function ($scope, $location) {
-    $scope.closeSidebar = function() {
-      $location.hash(null);
-      window.resetSidebarMenu();
-    };
+  .controller('NavCtrl', function () {
   });

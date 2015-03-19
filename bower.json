@@ -8,7 +8,7 @@
     "angular-route": "^1.3.0",
     "retina.js": "#c528fe9359b4b97f507617440c1a7d6c3d2b31df",
     "angular-retina": "#9d0b47972ead085fa4ad4ad8697a09999199ad1f",
-    "sidebar-transitions": "https://github.com/shea256/SidebarTransitions.git#45595791142efd621cce820d7cf6ab2e5bb66b06",
+    "sidebar-transitions": "https://github.com/shea256/SidebarTransitions.git#abcf2d5810cf353ea225e16db0a66d508f3a49dc",
     "fontawesome": "~4.3.0"
   },
   "devDependencies": {

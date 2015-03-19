@@ -32,7 +32,7 @@
           
           <!-- Sidebar -->
           <nav id="menu3" class="st-menu st-effect-3 menu slideout-menu" ng-controller="NavCtrl">
-            <a href="/">
+            <a href="/" class="close-sidebar">
               <header class="menu-header">
                 <i class="fa fa-connectdevelop"></i><span class="menu-header-title">Home</span>
               </header>
@@ -41,9 +41,11 @@
             <section class="menu-section">
               <h3 class="menu-section-title">Consumers</h3>
               <ul class="menu-section-list">
-                <li><a href="/registrars" ng-click="closeSidebar()">Choose a registrar</a></li>
                 <li>
-                  <a href="/#learnmore" ng-click="closeSidebar()">Learn more</a>
+                  <a href="/registrars" class="close-sidebar">Choose a registrar</a>
+                </li>
+                <li>
+                  <a href="/#learnmore" class="close-sidebar">Learn more</a>
                 </li>
               </ul>
             </section>
