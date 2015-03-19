@@ -31,7 +31,7 @@
         <div class="st-pusher">
           
           <!-- Sidebar -->
-          <nav id="menu3" class="st-menu st-effect-3 menu slideout-menu">
+          <nav id="menu3" class="st-menu st-effect-3 menu slideout-menu" ng-controller="NavCtrl">
             <a href="/">
               <header class="menu-header">
                 <i class="fa fa-connectdevelop"></i><span class="menu-header-title">Home</span>
@@ -42,7 +42,9 @@
               <h3 class="menu-section-title">Consumers</h3>
               <ul class="menu-section-list">
                 <li><a href="/registrars">Choose a registrar</a></li>
-                <li><a href="/#learnmore">Learn more</a></li>
+                <li>
+                  <a href="/#learnmore" ng-click="learnMore()">Learn more</a>
+                </li>
               </ul>
             </section>
 
@@ -137,7 +139,7 @@
     <script src="bower_components/retina.js/dist/retina.js"></script>
     <script src="bower_components/angular-retina/build/angular-retina.js"></script>
     <script src="bower_components/classie/classie.js"></script>
-    <script src="bower_components/sidebar-transitions/dist/js/sidebar-transitions.min.js"></script>
+    <script src="bower_components/sidebar-transitions/dist/js/sidebar-transitions.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -145,6 +147,7 @@
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/registrars.js"></script>
+        <script src="scripts/controllers/nav.js"></script>
         <!-- endbuild -->
 </body>
 </html>
