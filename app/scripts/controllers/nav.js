@@ -8,5 +8,5 @@
  * Controller of the digitalpassportApp
  */
 angular.module('digitalpassportApp')
-  .controller('NavCtrl', function ($scope, $location) {
+  .controller('NavCtrl', function () {
   });
