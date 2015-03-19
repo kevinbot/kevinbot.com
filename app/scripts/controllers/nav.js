@@ -9,7 +9,7 @@
  */
 angular.module('digitalpassportApp')
   .controller('NavCtrl', function ($scope, $location) {
-    $scope.learnMore = function() {
+    $scope.closeSidebar = function() {
       $location.hash(null);
       window.resetSidebarMenu();
     };
