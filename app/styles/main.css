@@ -15,6 +15,7 @@
 /* Globals */
 /* Links */
 a, a:focus, a:hover {color: #fff;}
+.lead {font-size: 15px;}
 
 /* Custom default button */
 .btn-default {color: #fff; text-shadow: none; /* Prevent inheritence from `body` */background: transparent;border:1px solid rgba(255,255,255,0.5);-webkit-transition:all linear .1s;transition:all linear .1s;}
@@ -40,16 +41,7 @@ img.forkmeGithub {visibility: hidden;}
 
 
 /* -- Sidebar Transitions -- */
-.st-container {min-height: 100%;}
-.st-content {
-  background-color: #2c96ff; /* Old browsers */
-  background: -moz-linear-gradient(-45deg,  #2c96ff 0%, #54326f 100%, #54326f 101%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#2c96ff), color-stop(100%,#54326f), color-stop(101%,#54326f)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(-45deg,  #2c96ff 0%,#54326f 100%,#54326f 101%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(-45deg,  #2c96ff 0%,#54326f 100%,#54326f 101%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(-45deg,  #2c96ff 0%,#54326f 100%,#54326f 101%); /* IE10+ */
-  background: linear-gradient(135deg,  #2c96ff 0%,#54326f 100%,#54326f 101%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c96ff', endColorstr='#54326f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+.st-container {min-height: 100%;
  }
 .no-csstransforms3d .st-pusher, .no-js .st-pusher { padding-left: 0px;}
 .st-menu ul {margin-bottom: 10px;}
@@ -118,15 +110,26 @@ a.btn.btn-primary.btn-lg.btn-registrar:hover {background-color:#2378cc;border-co
 .navbar-inverse .navbar-brand {float: none;}
 .navbar {margin-bottom: 0;}
 .cover-heading {margin-bottom:18px;}
-.bs-docs-featurette {padding-top: 40px; padding-bottom: 40px; font-size: 16px; line-height: 1.5; color: #555; text-align: center; background-color: #fff; border-bottom: 1px solid #e5e5e5;}
+.bs-docs-featurette {padding-top: 40px; padding-bottom: 40px; font-size: 16px; line-height: 1.5; color: #555; text-align: center; background-color: #fff; }
 .bs-docs-featurette-title {margin-bottom: 5px; font-size: 30px; font-weight: 400; color: #333;}
 .feature-title {margin-top: 20px; margin-bottom: 20px;}
 .works {margin-top: 30px; margin-bottom: 30px;}
-
+.inner.cover { padding-bottom: 100px; padding-top: 90px; margin-bottom: 0; margin-top: -90px; 
+  background-color: #2c96ff; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #2c96ff 0%, #54326f 100%, #54326f 101%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#2c96ff), color-stop(100%,#54326f), color-stop(101%,#54326f)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  #2c96ff 0%,#54326f 100%,#54326f 101%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  #2c96ff 0%,#54326f 100%,#54326f 101%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  #2c96ff 0%,#54326f 100%,#54326f 101%); /* IE10+ */
+  background: linear-gradient(135deg,  #2c96ff 0%,#54326f 100%,#54326f 101%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c96ff', endColorstr='#54326f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.solid {background-color: #3a73cd; color: #fff;}
+.feature-panel {  }
 
 
 /* Footer */
-.mastfoot {position: relative; color: rgba(255,255,255,.5); font-size: 12px; height:100px; margin: 20px auto 0 auto; width:100%;}
+.mastfoot {position: relative; color: rgba(255,255,255,.5); font-size: 12px; height:100px; width:100%; background-color: #222;}
 
 
 
@@ -138,7 +141,7 @@ a.btn.btn-primary.btn-lg.btn-registrar:hover {background-color:#2378cc;border-co
 
   /* Pull out the header and footer */
   .masthead {position: fixed;top: 0;}
-  .mastfoot {position: relative; margin: 100px auto 0 auto;}
+  .mastfoot {position: relative;}
 
   /* Handle the widths */
   .masthead, .mastfoot, .cover-container {width: 100%; /* Must be percentage or pixels for horizontal alignment */}
@@ -149,19 +152,18 @@ a.btn.btn-primary.btn-lg.btn-registrar:hover {background-color:#2378cc;border-co
   .col-centered{margin: 10px auto;}
 
   /* Cover */
-  .cover {padding: 0 20px; margin-top: 40px;}
+  .cover {padding: 30px 20px 100px 20px; margin-top: 0; margin-bottom: 0;}
   .lead {margin-bottom: 50px;}
-  .inner.cover {margin-bottom: 100px;}
 
  /* img.forkmeGithub {visibility: visible; height:90px!important; width:90px!important;}*/
-  .bs-docs-featurette {padding-top: 100px; padding-bottom: 100px;}
+  .bs-docs-featurette {padding-top: 80px; padding-bottom: 80px;}
   .bs-docs-featurette-title {font-size: 40px;}
 
 }
 
 @media (min-width: 992px) {
   .cover-heading {font-size: 2.5em;}
-  .mastfoot {position: relative; margin: 100px auto 0 auto;}
+  .mastfoot {position: relative;}
 
 }
 
