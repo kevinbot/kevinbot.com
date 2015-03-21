@@ -52,9 +52,9 @@ module.exports = function(config) {
     // - IE (only Windows)
     browsers: [
       'PhantomJS',
-      'ChromeCanary',
-      'Firefox',
-      'Safari'
+      //'ChromeCanary',
+      //'Firefox',
+      //'Safari'
     ],
 
     // Which plugins to enable
