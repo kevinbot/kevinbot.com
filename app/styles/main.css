@@ -165,9 +165,6 @@ a.btn.btn-primary.btn-lg.btn-registrar:hover {background-color:#2378cc;border-co
 
 }
 
-
-
-
-
-
-
+[ng\:cloak], [ng-cloak], .ng-cloak {
+    display: none !important;
+}
