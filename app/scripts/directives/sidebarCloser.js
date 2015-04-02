@@ -22,11 +22,14 @@ angular.module('digitalpassportApp')
     return {
         restrict: 'A',
         link: function(scope, elem) {
-            var actionStartedEvent = isOnMobile() ? 'touchstart' : 'click';
-            //var actionCompletedEvent = isOnMobile() ? 'touchend' : 'click';
+            var container = document.getElementById('st-container');
+            var actionStartedEvent = isOnMobile() ? 'touchstart' : 'mousedown';
+            var actionCompletedEvent = isOnMobile() ? 'touchend' : 'mouseup';
 
             elem.bind(actionStartedEvent, function() {
-                var container = document.getElementById('st-container');
+                window.classie.remove(container, 'st-menu-open');
+            });
+            elem.bind(actionCompletedEvent, function() {
                 window.classie.remove(container, 'st-menu-open');
             });
         }

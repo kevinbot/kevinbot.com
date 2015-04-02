@@ -13,4 +13,9 @@ angular.module('digitalpassportApp')
       $location.hash(null);
       //$anchorScroll();
     };
+
+    $scope.$on('$routeChangeStart', function(next, current) {
+        var container = document.getElementById('st-container');
+        window.classie.remove(container, 'st-menu-open');
+    });
   });
