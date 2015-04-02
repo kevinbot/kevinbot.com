@@ -32,7 +32,7 @@
           
           <!-- Sidebar -->
           <nav id="menu3" class="st-menu st-effect-3 menu slideout-menu" ng-controller="NavCtrl">
-            <a href="/" class="close-sidebar">
+            <a href="/"  sidebar-closer>
               <header class="menu-header">
                 <i class="fa fa-connectdevelop"></i><span class="menu-header-title">Home</span>
               </header>
@@ -42,10 +42,10 @@
               <h3 class="menu-section-title">Consumers</h3>
               <ul class="menu-section-list">
                 <li>
-                  <a href="/registrars" class="close-sidebar">Choose a registrar</a>
+                  <a href="/registrars" sidebar-closer>Choose a registrar</a>
                 </li>
                 <li>
-                  <a href="/#learnmore" class="close-sidebar" ng-click="scroll()">Learn more</a>
+                  <a href="/#learnmore" sidebar-closer ng-click="scroll()">Learn more</a>
                 </li>
               </ul>
             </section>
@@ -53,9 +53,9 @@
             <section class="menu-section">
               <h3 class="menu-section-title">Docs</h3>
               <ul class="menu-section-list">
-                <li><a href="/docs/Home" class="close-sidebar">Developer Overview</a></li>
-                <li><a href="/docs/Protocol-Design" class="close-sidebar">Protocol Design</a></li>
-                <li><a href="/docs/FAQ" class="close-sidebar">FAQ</a></li>
+                <li><a href="/docs/Home" sidebar-closer>Developer Overview</a></li>
+                <li><a href="/docs/Protocol-Design" sidebar-closer>Protocol Design</a></li>
+                <li><a href="/docs/FAQ" sidebar-closer>FAQ</a></li>
 
                 <li><a href="https://github.com/openname/specifications/issues" target="_blank">Make a suggestion</a></li>
               </ul>
@@ -156,6 +156,7 @@
         <script src="scripts/controllers/nav.js"></script>
         <script src="scripts/controllers/registrars.js"></script>
         <script src="scripts/controllers/docs.js"></script>
+        <script src="scripts/directives/sidebarCloser.js"></script>
         <!-- endbuild -->
 </body>
 </html>
