@@ -9,7 +9,7 @@
     "angular-sanitize": "^1.3.15",
     "retina.js": "#c528fe9359b4b97f507617440c1a7d6c3d2b31df",
     "angular-retina": "#9d0b47972ead085fa4ad4ad8697a09999199ad1f",
-    "sidebar-transitions": "https://github.com/shea256/SidebarTransitions.git#af55a8c5aa7ab7ed8248b053373e4ee47ff2f94d",
+    "sidebar-transitions": "https://github.com/shea256/SidebarTransitions.git#03137a1b400e64fd46725d518b9e5d3b4e5d0814",
     "fontawesome": "~4.3.0",
     "showdown": "^0.3.4",
     "angular-markdown-directive": "^0.3.1"
