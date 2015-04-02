@@ -51,11 +51,13 @@
             </section>
 
             <section class="menu-section">
-              <h3 class="menu-section-title">Developers</h3>
+              <h3 class="menu-section-title">Docs</h3>
               <ul class="menu-section-list">
-                <li><a href="https://github.com/openname/specifications/wiki" target="_blank">Docs</a></li>
+                <li><a href="/docs/Home" class="close-sidebar">Developer Overview</a></li>
+                <li><a href="/docs/Protocol-Design" class="close-sidebar">Protocol Design</a></li>
+                <li><a href="/docs/FAQ" class="close-sidebar">FAQ</a></li>
+
                 <li><a href="https://github.com/openname/specifications/issues" target="_blank">Make a suggestion</a></li>
-                <li><a href="https://github.com/digitalpassport/digitalpassport.info" target="_blank">Fork this site</a></li>
               </ul>
             </section>
 
@@ -138,18 +140,22 @@
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="bower_components/angular-resource/angular-resource.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/retina.js/dist/retina.js"></script>
     <script src="bower_components/angular-retina/build/angular-retina.js"></script>
     <script src="bower_components/classie/classie.js"></script>
     <script src="bower_components/sidebar-transitions/dist/js/sidebar-transitions.js"></script>
+    <script src="bower_components/showdown/src/showdown.js"></script>
+    <script src="bower_components/angular-markdown-directive/markdown.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
-        <script src="scripts/controllers/registrars.js"></script>
         <script src="scripts/controllers/nav.js"></script>
+        <script src="scripts/controllers/registrars.js"></script>
+        <script src="scripts/controllers/docs.js"></script>
         <!-- endbuild -->
 </body>
 </html>

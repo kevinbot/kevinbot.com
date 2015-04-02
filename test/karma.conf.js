@@ -24,10 +24,13 @@ module.exports = function(config) {
       'bower_components/bootstrap/dist/js/bootstrap.js',
       'bower_components/angular-resource/angular-resource.js',
       'bower_components/angular-route/angular-route.js',
+      'bower_components/angular-sanitize/angular-sanitize.js',
       'bower_components/retina.js/dist/retina.js',
       'bower_components/angular-retina/build/angular-retina.js',
       'bower_components/classie/classie.js',
       'bower_components/sidebar-transitions/dist/js/sidebar-transitions.js',
+      'bower_components/showdown/src/showdown.js',
+      'bower_components/angular-markdown-directive/markdown.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
       'app/scripts/**/*.js',

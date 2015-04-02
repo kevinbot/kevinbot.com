@@ -11,6 +11,8 @@
 .group:after { visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0; }
 .group { display:inline-block; } /* start commented backslash hack \*/ * html .group { height:1%; } .group { display:block; } /* close commented backslash hack */
 
+.docs-container { text-align: left; }
+.markdown-section img { max-width: 100%; }
 
 /* Globals */
 /* Links */
