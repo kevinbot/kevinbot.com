@@ -16,18 +16,19 @@
 
 /* Globals */
 /* Links */
-a, a:focus, a:hover {color: #fff;}
+a, a:focus, a:hover {color: rgba(255,255,255,1);}
 .lead {font-size: 15px;}
 
 /* Custom default button */
-.btn-default {color: #fff; text-shadow: none; /* Prevent inheritence from `body` */background: transparent;border:1px solid rgba(255,255,255,0.5);-webkit-transition:all linear .1s;transition:all linear .1s;}
-.btn-lg {padding:15px 55px;font-size: 13px; font-weight: 100;}
-.btn-default:hover,.btn-default:focus {border:1px solid rgba(255,255,255,1);background-color:rgba(255,255,255,1);color: #222;font-weight: 500;}
-
+.btn-default {color: rgba(0,102,255,1); text-shadow:none; /* Prevent inheritence from `body` */border:none;-webkit-transition:all linear .1s;transition:all linear .1s; border-radius: 4px;}
+.btn-lg {padding:14px 35px 13px 35px; font-size:9px; font-weight:400; text-transform:uppercase; letter-spacing:0.5px;}
+.btn-default:hover,.btn-default:focus,.btn-default:active {border:none;background-color:rgba(255,255,255,1);color: rgba(0,102,255,1); outline:none!important; box-shadow:none;}
+.btn-transparent {background-color: transparent; color:rgba(138,197,255,1);}
+.btn-transparent:hover,.btn-transparent:focus,.btn-transparent:active {border:none;background-color: transparent; color:rgba(255,255,255,1); outline:none!important; box-shadow:none;}
 
 /* Base structure */
 html, body {background-color: #333; height: auto!important;}
-body {color: #fff;text-align: center;font-family: "proxima-nova",sans-serif; font-style: normal;font-weight: 100!important;}
+body {color: #fff;text-align: center;font-family: "raleway",sans-serif; font-style: normal;font-weight: 100!important;}
 
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -90,7 +91,7 @@ a.btn.btn-primary.btn-lg.btn-registrar:hover {background-color:#2378cc;border-co
 
 
 /* -- Header -- */
-.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:active, .navbar-inverse .navbar-toggle:focus {float: left;margin: 0;padding: 9px 11px;border-color: transparent;margin: 20px 10px;background: transparent;}
+.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:active, .navbar-inverse .navbar-toggle:focus {float: left;margin: 0;padding: 9px 11px;border-color: transparent;margin: 7px 2px;background: transparent;}
 .navbar-toggle .icon-bar{display: block;width: 15px;height: 1px;border-radius: 1px;background-color: #fff;}
 .starter-template {padding: 40px 15px;text-align: center;}
 .navbar-brand {font-size: 16px; font-weight: 300; padding-bottom: 5px; margin-left: -53px;}
@@ -98,9 +99,10 @@ a.btn.btn-primary.btn-lg.btn-registrar:hover {background-color:#2378cc;border-co
 .navbar-inverse .navbar-nav > li > a {padding-top:16px;font-size: 13px;color: rgba(255,255,255,1);}
 .navbar-inverse {background: transparent; border-color: transparent;}
 .navbar-inverse .navbar-brand {color: rgba(255,255,255,1);}
+.navbar-toggle .icon-bar + .icon-bar {margin-top: 3px;}
 .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {color: rgba(255,255,255,0.5);}
 .cover h1, .cover p {font-weight: 100; margin-top: 0;}
-.passport-wrap {margin-bottom:50px; max-width: 700px;}
+.passport-wrap {margin-bottom:50px; max-width: 243px;}
 .masthead-brand {margin-top: 10px;margin-bottom: 10px;}
 .masthead-nav > li {display: inline-block;}
 .masthead-nav > li + li {margin-left: 20px;}
@@ -111,21 +113,13 @@ a.btn.btn-primary.btn-lg.btn-registrar:hover {background-color:#2378cc;border-co
 .conatainer-fluid.col-centered ul {list-style: none;}
 .navbar-inverse .navbar-brand {float: none;}
 .navbar {margin-bottom: 0;}
-.cover-heading {margin-bottom:18px;}
+.cover-heading {font-size:22px;margin-bottom:28px;}
+.cover-heading > span {font-weight: 300;}
 .bs-docs-featurette {padding-top: 40px; padding-bottom: 40px; font-size: 16px; line-height: 1.5; color: #555; text-align: center; background-color: #fff; }
 .bs-docs-featurette-title {margin-bottom: 5px; font-size: 30px; font-weight: 400; color: #333;}
 .feature-title {margin-top: 20px; margin-bottom: 20px;}
 .works {margin-top: 30px; margin-bottom: 30px;}
-.inner.cover { padding-bottom: 100px; padding-top: 90px; margin-bottom: 0; margin-top: -90px; 
-  background-color: #2c96ff; /* Old browsers */
-  background: -moz-linear-gradient(-45deg,  #2c96ff 0%, #54326f 100%, #54326f 101%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#2c96ff), color-stop(100%,#54326f), color-stop(101%,#54326f)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(-45deg,  #2c96ff 0%,#54326f 100%,#54326f 101%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(-45deg,  #2c96ff 0%,#54326f 100%,#54326f 101%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(-45deg,  #2c96ff 0%,#54326f 100%,#54326f 101%); /* IE10+ */
-  background: linear-gradient(135deg,  #2c96ff 0%,#54326f 100%,#54326f 101%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c96ff', endColorstr='#54326f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-}
+.inner.cover { padding-bottom: 100px; padding-top: 90px; margin-bottom: 0; margin-top: -90px; background-color: rgba(0,102,255,1);}
 .solid {background-color: #3a73cd; color: #fff;}
 
 
