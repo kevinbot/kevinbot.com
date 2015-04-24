@@ -1,4 +1,4 @@
-# digitalpassport.info
+# passcard.info
 
 ### Overview
 
@@ -8,7 +8,7 @@ The app uses [Bower](http://bower.io/) as a frontend JS package manager, [Grunt]
 
 ### Installation
 
-1. Clone the project: `git clone git@github.com:digitalpassport/digitalpassport.info.git`
+1. Clone the project: `git clone git@github.com:namesystem/passcard.info.git`
 2. Install the node dependencies: `$ npm install`
 3. Install the front-end JS dependencies: `$ bower install`
 
