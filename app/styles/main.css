@@ -26,6 +26,13 @@ a, a:focus, a:hover {color: rgba(255,255,255,1);}
 .btn-transparent {background-color: transparent; color:rgba(138,197,255,1);}
 .btn-transparent:hover,.btn-transparent:focus,.btn-transparent:active {border:none;background-color: transparent; color:rgba(255,255,255,1); outline:none!important; box-shadow:none;}
 
+/* Custom default button -OLD */
+.btn11111-default {color: #fff; text-shadow: none; /* Prevent inheritence from `body` */background: transparent;border:1px solid rgba(255,255,255,0.5);-webkit-transition:all linear .1s;transition:all linear .1s;}
+.btn11111-lg {padding:15px 55px;font-size: 13px; font-weight: 100;}
+.btn11111-default:hover,.btn11111-default:focus {border:1px solid rgba(255,255,255,1);background-color:rgba(255,255,255,1);color: #222;font-weight: 500;}
+
+
+
 /* Base structure */
 html, body {background-color: #333; height: auto!important;}
 body {color: #fff;text-align: center;font-family: "raleway",sans-serif; font-style: normal;font-weight: 100!important;}
@@ -92,7 +99,7 @@ a.btn.btn-primary.btn-lg.btn-registrar:hover {background-color:#2378cc;border-co
 
 /* -- Header -- */
 .navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:active, .navbar-inverse .navbar-toggle:focus {float: left;margin: 0;padding: 9px 11px;border-color: transparent;margin: 7px 2px;background: transparent;}
-.navbar-toggle .icon-bar{display: block;width: 15px;height: 1px;border-radius: 1px;background-color: #fff;}
+.navbar-toggle .icon-bar{display: block;width: 12px;height: 1px;border-radius: 1px;background-color: #fff;}
 .starter-template {padding: 40px 15px;text-align: center;}
 .navbar-brand {font-size: 16px; font-weight: 300; padding-bottom: 5px; margin-left: -53px;}
 .col-centered {float: none; margin: -15px auto 10px auto;}

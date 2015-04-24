@@ -10,4 +10,10 @@
 angular.module('digitalpassportApp')
   .controller('MainCtrl', function ($scope) {
     $scope.pageName = 'index';
+
+    $scope.triggerAlert = function() {
+    	alert('Hey!');
+    };
+
+    $scope.name = 'Guy';
   });
