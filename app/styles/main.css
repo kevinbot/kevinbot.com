@@ -107,7 +107,7 @@ a.btn.btn-primary.btn-lg.btn-registrar:hover {background-color:#2378cc;border-co
 .navbar-toggle .icon-bar + .icon-bar {margin-top: 3px;}
 .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {color: rgba(255,255,255,0.5);}
 .cover h1, .cover p {font-weight: 100; margin-top: 0;}
-.passport-wrap {margin-bottom:50px; max-width: 243px;}
+.passport-wrap {margin-bottom:50px; margin-left:0; margin-right:0;}
 .masthead-brand {margin-top: 10px;margin-bottom: 10px;}
 .masthead-nav > li {display: inline-block;}
 .masthead-nav > li + li {margin-left: 20px;}
