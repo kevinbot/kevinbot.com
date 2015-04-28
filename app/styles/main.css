@@ -20,6 +20,12 @@ a, a:focus, a:hover {color: rgba(255,255,255,1);}
 .lead {font-weight:100; font-size: 15px;}
 h2 {font-weight:100;}
 
+h1, h2, h3, h4, h5 {
+   font-family: "proxima-nova",sans-serif;
+   font-weight: 100; /* Be specific */
+   /* Your other headings CSS */
+}
+
 /* Custom default button */
 .btn-default {color: rgba(0,102,255,1); text-shadow:none; /* Prevent inheritence from `body` */ border: none; border-radius: 3px;
 -webkit-transition: all 25ms linear;
@@ -35,7 +41,7 @@ transition: all 25ms linear;}
 
 /* Base structure */
 html, body {height: auto!important;}
-body {color: #fff;text-align: center;font-family: "proxima-nova",sans-serif; font-style: normal;font-weight: 100!important;}
+body {color: #fff;text-align: center;font-family: "proxima-nova",sans-serif; font-weight: 100!important;}
 
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
