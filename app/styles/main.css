@@ -17,7 +17,8 @@
 /* Globals */
 /* Links */
 a, a:focus, a:hover {color: rgba(255,255,255,1);}
-.lead {font-size: 15px;}
+.lead {font-weight:100; font-size: 15px;}
+h2 {font-weight:100;}
 
 /* Custom default button */
 .btn-default {color: rgba(0,102,255,1); text-shadow:none; /* Prevent inheritence from `body` */ border: none; border-radius: 3px;
@@ -131,8 +132,8 @@ h2.content {font-weight: 100; letter-spacing: 0; font-size: 24px; margin-bottom:
 .navbar-inverse .navbar-brand {float: none;}
 .navbar {margin-bottom: 0;}
 .cover-heading {font-size:22px;margin-bottom:28px;}
-.bs-docs-featurette {padding-top: 40px; padding-bottom: 40px; font-size: 16px; line-height: 1.5; color: #555; text-align: center; background-color: #fff; }
-.bs-docs-featurette-title {margin-bottom: 5px; font-size: 30px; font-weight: 400; color: #333;}
+.bs-docs-featurette {padding-top: 40px; padding-bottom: 40px; font-size: 16px; line-height: 1.5; text-align: center; background-color: rgba(0,102,255,1);}
+.bs-docs-featurette-title {margin-bottom: 5px; font-size: 30px;}
 .feature-title {margin-top: 20px; margin-bottom: 20px;}
 .works {margin-top: 30px; margin-bottom: 30px;}
 .inner.cover { padding-bottom: 0; padding-top: 90px; margin-bottom: 0; margin-top: -90px; background-color: rgba(0,102,255,1);}
