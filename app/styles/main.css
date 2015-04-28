@@ -27,7 +27,7 @@ a, a:focus, a:hover {color: rgba(255,255,255,1);}
 -o-transition: all 25ms linear;
 transition: all 25ms linear;}
 .btn-lg {padding:12px 33px 10px 33px; font-size:10px; font-weight: 300; text-transform:uppercase; letter-spacing:0.5px;}
-.btn-default:hover,.btn-default:focus,.btn-default:active {border:none;background-color:rgba(255,255,255,0.8);color: rgba(0,102,255,1); outline:none!important; box-shadow:none;}
+.btn-default:hover,.btn-default:focus,.btn-default:active {border:none;background-color:rgba(255,255,255,0.5);color: rgba(0,102,255,1); outline:none!important; box-shadow:none;}
 .btn-transparent {padding:10px; font-size: 9px; background-color: transparent; color:rgba(138,197,255,1);}
 .btn-transparent:hover,.btn-transparent:focus,.btn-transparent:active {border:none;background-color: transparent; color:rgba(255,255,255,1); outline:none!important; box-shadow:none;}
 .lead-margin {margin-bottom: 12px;}
@@ -45,7 +45,7 @@ body {color: #fff;text-align: center;font-family: "proxima-nova",sans-serif; fon
 /* Padding for spacing */
 .inner {padding: 20px;}
 .githublink {position: absolute; top: 15px; right: 15px; border: 0; width: 18px; height: 18px; fill: rgba(255,255,255,1);}
-.githublink:hover {fill: rgba(255,255,255,0.8);}
+.githublink:hover {fill: rgba(255,255,255,0.5);}
 
 
 
@@ -90,6 +90,8 @@ i.fa.fa-github.fa-2x {position: absolute; margin:-5px 0 0 -28px;}
 }
 .jumbotron .lead {color:#343434; font-weight: 300; letter-spacing: 0; }
 h1.passregistrar {color:#343434; font-weight: 300!important; letter-spacing: 0; font-size: 24px;}
+h2.feature a {font-weight: 200; letter-spacing: 0; font-size: 20px; text-decoration:none;}
+h3.feature a {font-weight: 100; letter-spacing: 0; font-size: 14px; text-decoration:none;}
 a.btn.btn-primary.btn-lg.btn-registrar {font-weight:500!important; display: block; margin: 8px; background-color:#2c96ff;border-color:transparent;}
 a.btn.btn-primary.btn-lg.btn-registrar:hover {background-color:#2378cc;border-color:transparent;}
 
