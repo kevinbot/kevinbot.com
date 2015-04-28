@@ -73,7 +73,6 @@ h3 {display: block; font-size: 1.17em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
 }
-i.fa.fa-github.fa-2x {position: absolute; margin:-5px 0 0 -28px;}
 .menu-section-list {padding: 0; margin: 10px 0!important; list-style: none;}
 .menu-section {margin: 25px 0;}
 .menu a {color: #fff;}
@@ -81,6 +80,8 @@ i.fa.fa-github.fa-2x {position: absolute; margin:-5px 0 0 -28px;}
 .menu-section-title {text-transform: uppercase; color: #85888d; font-weight: 200; font-size: 12px; letter-spacing: 1px; padding: 0 20px; margin: 0;}
 .menu-header-title {margin: 0 0 0 10px;}
 .twitter-hashtag-button {margin-left: 20px;}
+
+
 
 /* -- Jumbotron -- */
 .jumbotron {margin-top: 30px!important; padding: 40px 25px; border-radius: 6px; background-color: #F2F2F0; margin-bottom: 300px!important;
@@ -95,6 +96,14 @@ h3.feature a {font-weight: 100; letter-spacing: 0; font-size: 14px; text-decorat
 a.btn.btn-primary.btn-lg.btn-registrar {font-weight:500!important; display: block; margin: 8px; background-color:#2c96ff;border-color:transparent;}
 a.btn.btn-primary.btn-lg.btn-registrar:hover {background-color:#2378cc;border-color:transparent;}
 
+
+/* -- Home -- */
+.st-content {background:none;}
+.featurette > img.img-responsive {padding-left:15px; /*max-width: 231px;*/}
+.feat-lft {background-color: rgba(38,125,255,1);}
+.feat-rgt {background-color: rgba(0,87,217,1);}
+.inverted {background-color: rgba(33,33,33,1); padding-top:125px; padding-bottom: 80px;}
+h2.content {font-weight: 100; letter-spacing: 0; font-size: 24px;}
 
 
 /* -- Header -- */
@@ -121,17 +130,12 @@ a.btn.btn-primary.btn-lg.btn-registrar:hover {background-color:#2378cc;border-co
 .navbar-inverse .navbar-brand {float: none;}
 .navbar {margin-bottom: 0;}
 .cover-heading {font-size:22px;margin-bottom:28px;}
-.bs-docs-featurette {padding-top: 40px; padding-bottom: 40px; font-size: 16px; line-height: 1.5; color: #555; text-align: center; background-color: #fff; }
-.bs-docs-featurette-title {margin-bottom: 5px; font-size: 30px; font-weight: 400; color: #333;}
 .feature-title {margin-top: 20px; margin-bottom: 20px;}
 .works {margin-top: 30px; margin-bottom: 30px;}
 .inner.cover { padding-bottom: 0; padding-top: 90px; margin-bottom: 0; margin-top: -90px; background-color: rgba(0,102,255,1);}
 .solid {background-color: #3a73cd; color: #fff;}
 img.arrow-down {width:12px; margin-top: -21px; padding-bottom: 13px;}
-div.col-md-6.featurette > img.img-responsive {max-width: 216px;}
-.featurette {background-color: rgba(38,125,255,1);}
-#hero-feature {background-color: rgba(0,87,217,1);}
-.st-content {background:none;}
+
 
 /* Footer */
 .mastfoot {position: relative; color: rgba(255,255,255,.5); font-size: 12px; height:100px; width:100%; background-color: #222;}
@@ -159,8 +163,6 @@ div.col-md-6.featurette > img.img-responsive {max-width: 216px;}
   /* Cover */
   .cover {padding: 30px 20px 100px 20px; margin-top: 0; margin-bottom: 0;}
   .lead {margin-bottom: 50px;}
-  .bs-docs-featurette {padding-top: 80px; padding-bottom: 80px;}
-  .bs-docs-featurette-title {font-size: 40px;}
 
 }
 
