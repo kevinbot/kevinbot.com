@@ -131,11 +131,14 @@ h2.content {font-weight: 100; letter-spacing: 0; font-size: 24px; margin-bottom:
 .navbar-inverse .navbar-brand {float: none;}
 .navbar {margin-bottom: 0;}
 .cover-heading {font-size:22px;margin-bottom:28px;}
+.bs-docs-featurette {padding-top: 40px; padding-bottom: 40px; font-size: 16px; line-height: 1.5; color: #555; text-align: center; background-color: #fff; }
+.bs-docs-featurette-title {margin-bottom: 5px; font-size: 30px; font-weight: 400; color: #333;}
 .feature-title {margin-top: 20px; margin-bottom: 20px;}
 .works {margin-top: 30px; margin-bottom: 30px;}
 .inner.cover { padding-bottom: 0; padding-top: 90px; margin-bottom: 0; margin-top: -90px; background-color: rgba(0,102,255,1);}
 .solid {background-color: #3a73cd; color: #fff;}
 img.arrow-down {width:12px; margin-top: -21px; padding-bottom: 13px;}
+
 
 
 /* Footer */
