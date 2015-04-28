@@ -102,7 +102,8 @@ a.btn.btn-primary.btn-lg.btn-registrar:hover {background-color:#2378cc;border-co
 .featurette > img.img-responsive {padding-left:15px; /*max-width: 231px;*/}
 .feat-lft {background-color: rgba(38,125,255,1);}
 .feat-rgt {background-color: rgba(0,87,217,1);}
-.inverted {background-color: rgba(33,33,33,1); padding-top:125px; padding-bottom: 80px;}
+.inverted {background-color: rgba(33,33,33,1); padding-top:60px; padding-bottom: 40px;}
+.component {background-color: rgba(0,102,255,1); padding-top:60px; padding-bottom: 40px;}
 h2.content {font-weight: 100; letter-spacing: 0; font-size: 24px;}
 
 
