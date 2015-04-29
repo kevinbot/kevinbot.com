@@ -20,7 +20,7 @@ a, a:focus, a:hover {color: rgba(255,255,255,1);}
 .lead {font-weight:100; font-size: 15px;}
 h1, h2, h3, h4, h5 {font-family: "proxima-nova",sans-serif; font-weight: 100; /* Be specific */ /* Your other headings CSS */}
 h2 {font-size: 24px; line-height: 34px;}
-h3 {margin:0 0;}
+h3 {margin:10px 0; display:block; font-size:1.17em;}
 
 
 /* Custom default button */
@@ -72,12 +72,6 @@ body {color: #fff;text-align: center;font-family: "proxima-nova",sans-serif; fon
 .st-menu ul li a, .st-menu ul li:first-child a {box-shadow: none; color:#fff; display: block; padding: 10px 20px; text-transform: none; font-weight: 200; letter-spacing:0px; font-size:100%/1.4em;}
 .st-menu h2 {color: rgba(255,255,255,0.75); font-size: 17px; margin: 10px 0px;}
 .st-effect-3.st-menu-open .st-pusher {transform: translate3d(256px,0,0);}
-h3 {display: block; font-size: 1.17em;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-}
 .menu-section-list {padding: 0; margin: 10px 0!important; list-style: none;}
 .menu-section {margin: 25px 0;}
 .menu a {color: #fff;}
@@ -140,6 +134,8 @@ h2.content {font-weight: 100; letter-spacing: 0; font-size: 24px; margin-bottom:
 .bs-docs-featurette {padding-top: 40px; padding-bottom: 40px; font-size: 16px; line-height: 1.5; text-align: center; background-color: rgba(0,102,255,1);}
 .bs-docs-featurette-title {margin-bottom: 5px; font-size: 30px;}
 .feature-title {margin-top: 20px; margin-bottom: 20px;}
+.feature-panel {margin:60px 0;}
+.feature-panel > img {padding-right: 11%; padding-left: 11%;}
 .works {margin-top: 30px; margin-bottom: 30px; padding-left: 15%; padding-right: 15%;}
 .inner.cover { padding-bottom: 0; padding-top: 90px; margin-bottom: 0; margin-top: -90px; background-color: rgba(0,102,255,1);}
 .solid {background-color: #3a73cd; color: #fff;}
