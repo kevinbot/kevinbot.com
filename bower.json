@@ -11,7 +11,6 @@
     "angular-retina": "#9d0b47972ead085fa4ad4ad8697a09999199ad1f",
     "sidebar-transitions": "https://github.com/shea256/SidebarTransitions.git#03137a1b400e64fd46725d518b9e5d3b4e5d0814",
     "fontawesome": "~4.3.0",
-    "reset-css": "~2.0.20110126",
     "showdown": "^0.3.4",
     "angular-markdown-directive": "^0.3.1"
   },
