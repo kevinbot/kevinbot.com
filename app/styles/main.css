@@ -158,8 +158,9 @@ div.container.col-xs-11.col-centered {}
 
 
 /* -- Responsive max-width wrappers -- */
-.wrap-mob-hero {max-width: 350px; margin-bottom:50px; margin-left:auto; margin-right:auto;}
+.wrap-mob-hero {max-width: 550px; margin-bottom:50px; margin-left:auto; margin-right:auto;}
 .wrap-mob-featpassmini {max-width: 400px;}
+.wrap-mob-featdecentralized {max-width: 400px;}
 
 
 /* Footer */
