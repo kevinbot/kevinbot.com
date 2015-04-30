@@ -129,7 +129,7 @@ a.btn.btn-primary.btn-lg.btn-registrar:hover {background-color:#2378cc;border-co
 
 /* -- Home -- */
 .st-content {background:none;}
-.featurette > img.feat-img {padding-left:14%; padding-right: 10%; /*max-width: 231px;*/}
+.featurette > img.feat-img {padding-left:14%; padding-right: 10%; }
 .feat-lft {background-color: rgba(38,125,255,1);}
 .feat-rgt {background-color: rgba(0,87,217,1);}
 .inverted {background-color: rgba(33,33,33,1); padding-top:60px; padding-bottom: 40px;}
@@ -151,14 +151,47 @@ img.arrow-down {width:12px; padding-bottom: 13px;}
 .btn-works img {margin-top: -21px; }
 img.arrow-learn-more {padding-left:48%; padding-right:48%;}
 .arrow-learn-more {margin-top:-18px!important; margin-bottom:25px!important;}
-
+div.container.col-xs-11.col-centered {}
+.img-responsive.col-centered.feat-img {/*max-width: 420px; padding-right:15px; padding-left: 15px;*/}
+.img-responsive {max-width: 90%;}
 
 /* Footer */
 .mastfoot {position: relative; color: rgba(255,255,255,.5); font-size: 12px; height:100px; width:100%; background-color: #222;}
 
 
 
+
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+
+
+@media (max-width: @screen-xs-max) { ... }
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+@media (min-width: @screen-lg-min) { ... }
+
+
+
+
+
+
 /* Media queries */
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .masthead-brand {float: left;}
   .masthead-nav {float: right;}
@@ -182,12 +215,23 @@ img.arrow-learn-more {padding-left:48%; padding-right:48%;}
 
 }
 
+/* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .cover-heading {font-size: 2.5em;}
   .mastfoot {position: relative;}
 
 }
-
 [ng\:cloak], [ng-cloak], .ng-cloak {
     display: none !important;
 }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { }
+
+
+
+@media (max-width: @screen-xs-max) {
+  
+}
+
+
