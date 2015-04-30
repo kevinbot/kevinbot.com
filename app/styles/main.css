@@ -114,7 +114,6 @@ a.btn.btn-primary.btn-lg.btn-registrar:hover {background-color:#2378cc;border-co
 .navbar-toggle .icon-bar + .icon-bar {margin-top: 3px;}
 .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {color: rgba(255,255,255,0.5);}
 .cover h1, .cover p {font-weight: 100; margin-top: 0;}
-.passport-wrap {margin-bottom:50px; margin-left:auto; margin-right:auto; max-width: 273px;}
 .masthead-brand {margin-top: 10px;margin-bottom: 10px;}
 .masthead-nav > li {display: inline-block;}
 .masthead-nav > li + li {margin-left: 20px;}
@@ -129,7 +128,6 @@ a.btn.btn-primary.btn-lg.btn-registrar:hover {background-color:#2378cc;border-co
 
 /* -- Home -- */
 .st-content {background:none;}
-.featurette > img.feat-img {}
 .feat-lft {background-color: rgba(38,125,255,1);}
 .feat-rgt {background-color: rgba(0,87,217,1);}
 .inverted {background-color: rgba(33,33,33,1); padding-top:60px; padding-bottom: 40px;}
@@ -154,6 +152,11 @@ img.arrow-learn-more {padding-left:48%; padding-right:48%;}
 div.container.col-xs-11.col-centered {}
 .img-responsive.col-centered.feat-img {/*max-width: 420px; padding-right:15px; padding-left: 15px;*/}
 .img-re-constraint {max-width: 90%;}
+
+
+/* -- Responsive max-width wrappers -- */
+.wrap-mob-hero {max-width: 273px; margin-bottom:50px; margin-left:auto; margin-right:auto;}
+
 
 
 /* Footer */
