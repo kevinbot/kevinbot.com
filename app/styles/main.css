@@ -55,10 +55,10 @@ body {color: #fff;text-align: center;font-family: "proxima-nova",sans-serif; fon
 
 /* Padding for spacing */
 .inner {padding: 20px;}
-.githublink {position: absolute; top: 15px; right: 15px; border: 0; width: 18px; height: 18px; fill: rgba(255,255,255,1);}
+.githublink {position: absolute; top: 20px; right: 20px; border: 0; width: 32px; height: 32px; fill: rgba(255,255,255,1);}
 .githublink:hover {fill: rgba(255,255,255,0.5);}
 .passcardlink {position: absolute; top: 18px; left: 8px; border: 0; width: 100px; height: auto; fill: rgba(255,255,255,1);}
-.githublink-sidebar {position: absolute; top: 27px; right: 20px; border: 0; width: 16px; height: 16px; fill: rgba(80,80,80,1);}
+.githublink-sidebar {position: absolute; top: 27px; right: 20px; border: 0; width: 40px; height: 40px; fill: rgba(80,80,80,1);}
 
 
 /* -- Sidebar Transitions -- */
@@ -105,7 +105,7 @@ a.btn.btn-primary.btn-lg.btn-registrar:hover {background-color:#2378cc;border-co
 
 
 /* -- Header -- */
-.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:active, .navbar-inverse .navbar-toggle:focus {float: left;margin: 0;padding: 9px 11px;border-color: transparent;margin: 7px 2px;background: transparent;}
+.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:active, .navbar-inverse .navbar-toggle:focus {float: left;margin: 0;padding: 9px 11px;border-color: transparent;margin: 20px 10px;background: transparent;}
 .navbar-toggle .icon-bar{display: block;width: 12px;height: 1px;border-radius: 1px;background-color: #fff;}
 .starter-template {padding: 40px 15px;text-align: center;}
 .navbar-brand {font-size: 16px; font-weight: 300; padding-bottom: 5px; margin-left: -53px;}
