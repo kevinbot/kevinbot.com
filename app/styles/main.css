@@ -212,7 +212,7 @@ div.container.col-xs-11.col-centered {}
 @media (min-width: 992px) {
   .cover-heading {font-size: 2.5em;}
   .mastfoot {position: relative;}
-  div.container col-md-6 feat-lft featurette
+  div.container.col-md-6.feat-lft.featurette {}
 
 }
 [ng\:cloak], [ng-cloak], .ng-cloak {
