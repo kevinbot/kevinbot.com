@@ -18,7 +18,7 @@
 /* Links */
 a, a:focus, a:hover {color: rgba(255,255,255,1);}
 .lead {font-weight:100; font-size: 15px;}
-h1, h2, h3, h4, h5 {font-family: "proxima-nova",sans-serif; font-weight: 100; /* Be specific */ /* Your other headings CSS */}
+h1, h2, h3, h4, h5 {font-family: "ProximaNovaT-Thin",sans-serif; font-weight: 100; /* Be specific */ /* Your other headings CSS */}
 h2 {font-size: 24px; line-height: 34px; margin-top: 20px; margin-bottom: 20px;}
 
 /*Colors*/
@@ -45,7 +45,7 @@ transition: all 25ms linear;}
 
 /* Base structure */
 html, body {height: auto!important;}
-body {color: #fff;text-align: center;font-family: "proxima-nova",sans-serif; font-weight: 100!important;}
+body {color: #fff;text-align: center;font-family: "ProximaNovaT-Thin",sans-serif; font-weight: 100!important;}
 
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
