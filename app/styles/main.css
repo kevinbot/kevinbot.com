@@ -11,8 +11,8 @@
 .group:after { visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0; }
 .group { display:inline-block; } /* start commented backslash hack \*/ * html .group { height:1%; } .group { display:block; } /* close commented backslash hack */
 
-.docs-container { text-align:left; }
-.markdown-section img { max-width:100%; }
+.markdown-section img { max-width:100%;}
+
 
 /* Base structure */
 html, body {height:100%; margin:0;}
@@ -99,12 +99,16 @@ a > .githublink {z-index:9999;}
 
 
 /* -- Jumbotron -- */
-.jumbotron {margin-top:30px; padding:40px 25px 30px 25px; border-radius:6px; background-color:#F2F2F0; margin-bottom:300px; max-width:450px;
+.jumbo-registrar {margin-top:30px; padding:40px 25px 30px 25px; border-radius:6px; background-color:rgba(255,255,255,1); margin-bottom:300px; max-width:450px;
   -webkit-box-shadow:rgba(0,0,0,.1) 0 0 25px;
   -moz-box-shadow:rgba(0,0,0,.1) 0 0 25px;
   box-shadow:rgba(0,0,0,.1) 0 0 25px;
 }
-h1.pass-registrar {font-family: 'ProximaNova-Regular',sans-serif; color:rgba(52,52,52,1); font-size:24px; margin-top:20px; margin-bottom:20px;}
+.jumbo-docs {background-color:transparent; border-radius:6px; padding:0;}
+.jumbo-docs p {font-size:16px!important; line-height: 24px;}
+.jumbo-docs h3 {font-size:24px; margin-top:70px!important; margin-bottom:30px!important;}
+.jumbo-docs h1 {font-size:32px; margin-top:20px!important; margin-bottom:50px!important;}
+h1.pass-registrar {color:rgba(52,52,52,1); font-size:24px; margin-top:20px; margin-bottom:20px;}
 .lead-registrar {font-size:16px!important; color:rgba(52,52,52,1); margin-bottom:30px!important;}
 h2.feature {font-size:20px; margin-top:0; margin-bottom:5px;}
 h2.feature a, h3.feature a {text-decoration:none;}
@@ -190,7 +194,6 @@ div.container.col-xs-11.col-centered {}
   .container {width:auto;}
   .masthead-brand {float:left;}
   .masthead-nav {float:right;}
-  .jumbotron {margin-top:100px;}
   .masthead {position:fixed; top:0;}
   .masthead, .mastfoot, .cover-container {width:100%; /* Must be percentage or pixels for horizontal alignment */}
   .navbar-inverse .navbar-brand {float:left;}
