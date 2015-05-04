@@ -174,15 +174,6 @@ div.container.col-xs-11.col-centered {}
 
 
 
-
-
-
-
-
-
-
-
-
 /* Media queries */
 
 /* Extra small devices (phones, less than 768px) */
@@ -218,7 +209,7 @@ div.container.col-xs-11.col-centered {}
   .mastfoot {position:relative;}
   div.container.col-md-6.feat-lft.featurette {}
   .wrap-hero {max-width:593px; margin-bottom:50px; margin-left:auto; margin-right:auto;}
-
+  .passcard-logo {margin-top:16px; width:90px; height:auto; fill:rgba(255,255,255,1);}
 }
 [ng\:cloak], [ng-cloak], .ng-cloak {
     display:none !important;
