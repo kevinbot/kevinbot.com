@@ -27,13 +27,16 @@ h2 {font-size:24px; line-height:34px; margin-top:20px; margin-bottom:20px;}
 
 /*Colors*/
 .color-blue {color:rgba(0,102,255,1);}
-.color-ltblue {color:rgba(0,102,255,1);}
+.color-ltblue {}
 .color-drkblue {color:rgba(1,68,145,1);}
+.bkgcolor-drkblue {background-color:rgba(1,68,145,1);}
+.bkgcolor-blue {background-color:rgba(0,102,255,1);}
+.bkgcolor-ltblue {}
 
 
 /* Custom default button */
-.btn {font-family:"ProximaNova-Regular",sans-serif; }
-.btn-default {text-shadow:none; /* Prevent inheritence from `body` */ border:none; border-radius:3px; 
+.btn {border:none; font-family:"ProximaNova-Regular",sans-serif; font-size:11px; text-transform:uppercase; }
+.btn-default, .btn-primary {text-shadow:none; /* Prevent inheritence from `body` */ border:none; border-radius:3px; 
 -webkit-transition:all 25ms linear;
 -moz-transition:all 25ms linear;
 -ms-transition:all 25ms linear;
@@ -45,8 +48,8 @@ transition:all 25ms linear;}
 .btn-default.color-drkblue:hover,.btn-default.color-drkblue:focus,.btn-default.color-drkblue:active {color:rgba(1,68,145,1);}
 .btn-transparent {padding:10px; font-size:10px; background-color:transparent; color:rgba(138,197,255,1);}
 .btn-transparent:hover,.btn-transparent:focus,.btn-transparent:active {border:none; background-color:transparent; color:rgba(255,255,255,1); outline:none!important; box-shadow:none;}
-a.btn.btn-primary.btn-default.btn-registrar {display:block; margin:8px; background-color:#2c96ff; border-color:transparent;}
-a.btn.btn-primary.btn-default.btn-registrar:hover {background-color:#2378cc; border-color:transparent;}
+.btn-registrar {padding:15px 60px;margin-bottom: 10px;}
+.btn-link {margin-top:10px;}
 
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -96,12 +99,13 @@ a > .githublink {z-index:9999;}
 
 
 /* -- Jumbotron -- */
-.jumbotron {margin-top:30px; padding:40px 25px; border-radius:6px; background-color:#F2F2F0; margin-bottom:300px; max-width:450px;
+.jumbotron {margin-top:30px; padding:40px 25px 30px 25px; border-radius:6px; background-color:#F2F2F0; margin-bottom:300px; max-width:450px;
   -webkit-box-shadow:rgba(0,0,0,.1) 0 0 25px;
   -moz-box-shadow:rgba(0,0,0,.1) 0 0 25px;
   box-shadow:rgba(0,0,0,.1) 0 0 25px;
 }
-h1.passregistrar {color:#343434;font-size:24px;}
+h1.pass-registrar {font-family: 'ProximaNova-Regular',sans-serif; color:rgba(52,52,52,1); font-size:24px; margin-top:20px; margin-bottom:20px;}
+.lead-registrar {font-size:16px!important; color:rgba(52,52,52,1); margin-bottom:30px!important;}
 h2.feature {font-size:20px; margin-top:0; margin-bottom:5px;}
 h2.feature a, h3.feature a {text-decoration:none;}
 
@@ -157,6 +161,7 @@ img.arrow-learn-more {padding-left:49%; padding-right:49%;}
 div.container.col-xs-11.col-centered {}
 .img-responsive.col-centered.feat-img {/*max-width:420px; padding-right:15px; padding-left:15px;*/}
 .img-re-constraint {max-width:90%;}
+.lead {font-size:16px;}
 .lead-margin {margin-bottom:12px;}
 .lead-margin-lg {margin-bottom:75px;}
 .lead a {text-decoration:none;}
@@ -193,7 +198,6 @@ div.container.col-xs-11.col-centered {}
   .navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:active, .navbar-inverse .navbar-toggle:focus {float:left; display:block; margin:0; padding:9px 11px; border-color:transparent; margin:18px 10px; background:transparent;}
   .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {margin-left:-15px; margin-right:20px;}
   .cover-heading {font-size:24px;}
-  .lead {font-size:16px;}
   .cover {padding:30px 20px 100px 20px; margin-top:0; margin-bottom:0;}
 
 }
