@@ -15,8 +15,8 @@
 .markdown-section img { max-width:100%; }
 
 /* Base structure */
-html, body {height:auto!important;}
-body {color:#fff;text-align:center;font-family:"ProximaNova-Light",sans-serif; font-weight:300;}
+html, body {height:100%; margin:0;}
+body {color:#fff;text-align:center;font-family:"ProximaNova-Light",sans-serif; font-weight:300;background-color:rgba(0,102,255,1);}
 
 
 /* Globals */
@@ -55,7 +55,7 @@ a.btn.btn-primary.btn-default.btn-registrar:hover {background-color:#2378cc; bor
 .cover-container {margin-right:auto; margin-left:auto; height:100%;}
 
 /* Padding for spacing */
-.inner {padding:20px;}
+.inner {padding:20px; height:100%;}
 a > .githublink {z-index:9999;}
 .githublink, .githublink-sidebar {position:absolute; top:15px; right:15px; border:0; width:34px; height:34px; fill:rgba(255,255,255,1);}
 .githublink {z-index:9999;}
@@ -66,7 +66,7 @@ a > .githublink {z-index:9999;}
 
 
 /* -- Sidebar Transitions -- */
-.st-container {min-height:100%;}
+.st-container, {min-height:100%;}
 .no-csstransforms3d .st-pusher, .no-js .st-pusher { padding-left:0px;}
 .st-menu ul {margin-bottom:10px;}
 .st-menu {background-color:#1D1F20; width:256px; text-align:left;
@@ -145,7 +145,7 @@ h2.content {letter-spacing:0; font-size:24px; margin-bottom:60px;}
 .feature-panel > img {margin:0 auto; padding:0 15%;}
 .feature-panel > h3 {margin-bottom:10px; display:block; font-size:1.17em;}
 .works {margin-top:30px; margin-bottom:30px; padding:0 12%;}
-.inner.cover { padding-bottom:0; padding-top:90px; margin-bottom:0; margin-top:-90px; background-color:rgba(0,102,255,1);}
+.inner.cover {height:100%; padding-bottom:0; padding-top:90px; margin-bottom:0; margin-top:-90px; background-color:rgba(0,102,255,1);}
 .solid {background-color:#3a73cd; color:#fff;}
 .feature-action {background-color:rgba(1,68,145,1);}
 .action-title {margin-top:120px;}
@@ -160,6 +160,10 @@ div.container.col-xs-11.col-centered {}
 .lead-margin {margin-bottom:12px;}
 .lead-margin-lg {margin-bottom:75px;}
 .lead a {text-decoration:none;}
+.st-content-inner {  display: table;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;}
 
 /* -- Responsive max-width wrappers -- */
 .wrap-mob-hero {max-width:300px; margin-bottom:50px; margin-left:auto; margin-right:auto;}
@@ -169,8 +173,7 @@ div.container.col-xs-11.col-centered {}
 
 
 /* Footer */
-.mastfoot {position:relative; color:rgba(255,255,255,.5); font-size:12px; height:100px; width:100%; background-color:#222;}
-
+.mastfoot {position:relative; color:rgba(255,255,255,.5); font-size:12px; height:80px; width:100%; background-color:#222;}
 
 
 
@@ -185,12 +188,7 @@ div.container.col-xs-11.col-centered {}
   .masthead-brand {float:left;}
   .masthead-nav {float:right;}
   .jumbotron {width:404px; margin-top:100px!important;}
-
-  /* Pull out the header and footer */
-  .masthead {position:fixed;top:0;}
-  .mastfoot {position:relative;}
-
-  /* Handle the widths */
+  .masthead {position:fixed; top:0;}
   .masthead, .mastfoot, .cover-container {width:100%; /* Must be percentage or pixels for horizontal alignment */}
   .navbar-inverse .navbar-brand {float:left;}
   .navbar-text {float:left; margin:18px 35px 15px 0;}
@@ -206,8 +204,7 @@ div.container.col-xs-11.col-centered {}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
-  .mastfoot {position:relative;}
-  div.container.col-md-6.feat-lft.featurette {}
+  .mastfoot {}
   .wrap-hero {max-width:593px; margin-bottom:50px; margin-left:auto; margin-right:auto;}
   .passcard-logo {margin-top:16px; width:90px; height:auto; fill:rgba(255,255,255,1);}
 }
