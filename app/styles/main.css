@@ -101,10 +101,9 @@ a > .githublink {z-index:9999;}
   -moz-box-shadow:rgba(0,0,0,.1) 0 0 25px;
   box-shadow:rgba(0,0,0,.1) 0 0 25px;
 }
-.jumbotron .lead {color:#343434;}
 h1.passregistrar {color:#343434;font-size:24px;}
-h2.feature a {font-size:20px; text-decoration:none;}
-h3.feature a {text-decoration:none;}
+h2.feature {font-size:20px; margin-top:0; margin-bottom:5px;}
+h2.feature a, h3.feature a {text-decoration:none;}
 
 
 
@@ -153,17 +152,18 @@ h2.content {letter-spacing:0; font-size:24px; margin-bottom:60px;}
 .btn-action {margin-top:50px; margin-bottom:180px;}
 img.arrow-down {width:12px; padding-bottom:13px;}
 .btn-works img {margin-top:-21px; }
-img.arrow-learn-more {padding-left:48%; padding-right:48%;}
+img.arrow-learn-more {padding-left:49%; padding-right:49%;}
 .arrow-learn-more {margin-top:-18px!important; margin-bottom:25px!important;}
 div.container.col-xs-11.col-centered {}
 .img-responsive.col-centered.feat-img {/*max-width:420px; padding-right:15px; padding-left:15px;*/}
 .img-re-constraint {max-width:90%;}
 .lead-margin {margin-bottom:12px;}
-
+.lead-margin-lg {margin-bottom:75px;}
+.lead a {text-decoration:none;}
 
 /* -- Responsive max-width wrappers -- */
 .wrap-mob-hero {max-width:300px; margin-bottom:50px; margin-left:auto; margin-right:auto;}
-.wrap-mob-featpassmini, .wrap-mob-featdecentralized {max-width:340px;}
+.wrap-mob-featpassmini, .wrap-mob-featdecentralized {max-width:300px; margin-top:15px;}
 .wrap-mob-sections {max-width:450px;}
 .wrap-mob-feat {max-width:240px}
 
@@ -197,6 +197,7 @@ div.container.col-xs-11.col-centered {}
   .navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:active, .navbar-inverse .navbar-toggle:focus {float:left; display:block; margin:0; padding:9px 11px; border-color:transparent; margin:18px 10px; background:transparent;}
   .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {margin-left:-15px; margin-right:20px;}
   .cover-heading {font-size:24px;}
+  .lead {font-size:16px;}
 
   /* Cover */
   .cover {padding:30px 20px 100px 20px; margin-top:0; margin-bottom:0;}
@@ -205,7 +206,6 @@ div.container.col-xs-11.col-centered {}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
-  .cover-heading {}
   .mastfoot {position:relative;}
   div.container.col-md-6.feat-lft.featurette {}
   .wrap-hero {max-width:593px; margin-bottom:50px; margin-left:auto; margin-right:auto;}
