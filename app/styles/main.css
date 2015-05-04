@@ -205,8 +205,7 @@ div.container.col-xs-11.col-centered {}
   .navbar-text {float:left; margin:18px 35px 15px 0;}
   .navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:active, .navbar-inverse .navbar-toggle:focus {float:left; display:block; margin:0; padding:9px 11px; border-color:transparent; margin:18px 10px; background:transparent;}
   .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {margin-left:-15px; margin-right:20px;}
-  .cover-heading {font-size:26px;}
-
+  .cover-heading {font-size:24px;}
 
   /* Cover */
   .cover {padding:30px 20px 100px 20px; margin-top:0; margin-bottom:0;}
@@ -215,9 +214,10 @@ div.container.col-xs-11.col-centered {}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
-  .cover-heading {font-size:2.5em;}
+  .cover-heading {}
   .mastfoot {position:relative;}
   div.container.col-md-6.feat-lft.featurette {}
+  .wrap-hero {max-width:593px; margin-bottom:50px; margin-left:auto; margin-right:auto;}
 
 }
 [ng\:cloak], [ng-cloak], .ng-cloak {
