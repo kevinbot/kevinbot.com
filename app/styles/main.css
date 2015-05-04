@@ -25,13 +25,6 @@ a, a:focus, a:hover {color:rgba(255,255,255,1);}
 h1, h2, h3, h4, h5 {font-family:"ProximaNova-Light",sans-serif; font-weight:300; /* Be specific */ /* Your other headings CSS */}
 h2 {font-size:24px; line-height:34px; margin-top:20px; margin-bottom:20px;}
 
-/*Colors*/
-.color-blue {color:rgba(0,102,255,1);}
-.color-ltblue {}
-.color-drkblue {color:rgba(1,68,145,1);}
-.bkgcolor-drkblue {background-color:rgba(1,68,145,1);}
-.bkgcolor-blue {background-color:rgba(0,102,255,1);}
-.bkgcolor-ltblue {}
 
 
 /* Custom default button */
@@ -48,8 +41,18 @@ transition:all 25ms linear;}
 .btn-default.color-drkblue:hover,.btn-default.color-drkblue:focus,.btn-default.color-drkblue:active {color:rgba(1,68,145,1);}
 .btn-transparent {padding:10px; font-size:10px; background-color:transparent; color:rgba(138,197,255,1);}
 .btn-transparent:hover,.btn-transparent:focus,.btn-transparent:active {border:none; background-color:transparent; color:rgba(255,255,255,1); outline:none!important; box-shadow:none;}
-.btn-registrar {padding:15px 60px;margin-bottom: 10px;}
+.btn-registrar {outline:none!important; padding:15px 60px; margin-bottom: 10px;}
 .btn-link {margin-top:10px;}
+
+/*Colors*/
+.color-blue {color:rgba(0,102,255,1);}
+.color-ltblue {}
+.color-drkblue {color:rgba(1,68,145,1);}
+.bkgcolor-drkblue {background-color:rgba(1,68,145,1);}
+.bkgcolor-blue {background-color:rgba(0,102,255,1);}
+.bkgcolor-white {background-color:rgba(255,255,255,1);}
+.bkgcolor-transparent {background-color:transparent; border:1px solid #FFFFFF; outline:none!important; padding:15px 60px; margin-top:90px; margin-bottom:120px;}
+.bkgcolor-transparent:hover {background-color:rgba(255,255,255,1); color:rgba(0,102,255,1);border:1px solid #FFFFFF; outline:none!important;}
 
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
