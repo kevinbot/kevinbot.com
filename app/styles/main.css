@@ -81,6 +81,7 @@ a > .githublink {z-index:9999;}
 }
 .st-menu ul li a:hover, .st-menu ul li:first-child a:focus {color:rgba(255,255,255,1); text-decoration:none; background-color:rgba(255,255,255,.1);transition:none;}
 .st-menu ul li a, .st-menu ul li:first-child a {box-shadow:none; line-height:20px; color:#fff; display:block; padding:10px 20px; text-transform:none; font-size:14px;}
+.st-menu ul li a {letter-spacing:0;}
 .menu-header-title {font-size:14px;}
 .st-menu h2 {color:rgba(255,255,255,0.75); font-size:17px; margin:10px 0px;}
 .st-effect-3.st-menu-open .st-pusher {transform:translate3d(256px,0,0);}
@@ -204,7 +205,8 @@ div.container.col-xs-11.col-centered {}
   .navbar-text {float:left; margin:18px 35px 15px 0;}
   .navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:active, .navbar-inverse .navbar-toggle:focus {float:left; display:block; margin:0; padding:9px 11px; border-color:transparent; margin:18px 10px; background:transparent;}
   .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {margin-left:-15px; margin-right:20px;}
-  .col-centered{margin:10px auto;}
+  .cover-heading {font-size:26px;}
+
 
   /* Cover */
   .cover {padding:30px 20px 100px 20px; margin-top:0; margin-bottom:0;}
