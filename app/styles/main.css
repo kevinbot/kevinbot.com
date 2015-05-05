@@ -166,8 +166,8 @@ h2.content {letter-spacing:0; font-size:24px; margin-bottom:60px;}
 .btn-action {margin-top:50px; margin-bottom:180px;}
 img.arrow-down {width:12px; padding-bottom:13px;}
 .btn-works img {margin-top:-21px; }
-img.arrow-learn-more {padding-left:49%; padding-right:49%;}
-.arrow-learn-more {margin-top:-18px!important; margin-bottom:25px!important;}
+img.arrow-learn-more {margin:-20px auto 25px auto!important; width:10px; height:auto;}
+.arrow-learn-more {}
 div.container.col-xs-11.col-centered {}
 .img-responsive.col-centered.feat-img {/*max-width:420px; padding-right:15px; padding-left:15px;*/}
 .img-re-constraint {max-width:90%;}
