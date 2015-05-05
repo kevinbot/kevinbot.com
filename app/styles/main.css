@@ -216,7 +216,7 @@ div.container.col-xs-11.col-centered {}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
-  .wrap-hero {max-width:593px;margin-top: 50px; margin-bottom:50px; margin-left:auto; margin-right:auto;}
+  .wrap-hero {max-width:593px; margin-top: 50px; margin-bottom:50px; margin-left:auto; margin-right:auto;}
   .passcard-logo {margin-top:16px; width:90px; height:auto; fill:rgba(255,255,255,1);}
 }
 [ng\:cloak], [ng-cloak], .ng-cloak {
@@ -224,8 +224,8 @@ div.container.col-xs-11.col-centered {}
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width:@screen-lg-min) {
-
+@media (min-width:1200px) {
+  .wrapperhero-lg {max-width:750px!important; margin-top: 0; margin-bottom:50px; margin-left:auto; margin-right:auto;}
 }
 
 
