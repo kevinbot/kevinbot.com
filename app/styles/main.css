@@ -43,7 +43,7 @@ transition:all 25ms linear;}
 .btn-transparent {padding:10px; font-size:10px; background-color:transparent; color:rgba(138,197,255,1);}
 .btn-transparent:hover,.btn-transparent:focus,.btn-transparent:active {border:none; background-color:transparent; color:rgba(255,255,255,1); outline:none!important; box-shadow:none;}
 .btn-registrar {outline:none!important; padding:15px 60px; margin-bottom: 10px;}
-.btn-link {margin-top:10px; color:rgba(0,102,255,1);}
+.btn-link {margin-top:10px; color:rgba(0,102,255,1); outline:none!important; padding:12px 60px;}
 
 /*Colors*/
 .color-blue {color:rgba(0,102,255,1);}
@@ -167,7 +167,6 @@ h2.content {letter-spacing:0; font-size:24px; margin-bottom:60px;}
 img.arrow-down {width:12px; padding-bottom:13px;}
 .btn-works img {margin-top:-21px; }
 img.arrow-learn-more {margin:-20px auto 25px auto!important; width:10px; height:auto;}
-.arrow-learn-more {}
 div.container.col-xs-11.col-centered {}
 .img-responsive.col-centered.feat-img {/*max-width:420px; padding-right:15px; padding-left:15px;*/}
 .img-re-constraint {max-width:90%;}
