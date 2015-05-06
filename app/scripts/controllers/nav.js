@@ -19,10 +19,11 @@ angular.module('digitalpassportApp')
         window.classie.remove(container, 'st-menu-open');
     });
 
-    var forceSSL = function () {
-        if ($location.protocol() !== 'https') {
+    var forceSSL = function (productionDomain) {
+        if ($location.protocol() !== 'https' &&
+            $location.host() === productionDomain) {
             $window.location.href = $location.absUrl().replace('http', 'https');
         }
     };
-    forceSSL();
+    forceSSL('passcard.info');
   });
