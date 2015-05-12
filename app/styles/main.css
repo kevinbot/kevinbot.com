@@ -44,7 +44,7 @@ transition:all 25ms linear;}
 .btn-transparent:hover,.btn-transparent:focus,.btn-transparent:active {border:none; background-color:transparent; color:rgba(255,255,255,1); outline:none!important; box-shadow:none;}
 .btn-registrar {outline:none!important; padding:15px 60px; margin-bottom: 10px;}
 .btn-link {margin-top:10px; color:rgba(0,102,255,1); outline:none!important; padding:12px 60px;}
-.btn-spc {margin-left: 25px;}
+.btn-spc {margin-right:10px; margin-left:10px;}
 
 /*Colors*/
 .color-blue {color:rgba(0,102,255,1);}
